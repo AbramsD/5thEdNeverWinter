@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.0">
-	<window data="" class="library" pos="426,96,1126,646" />
+	<window data="" class="library" pos="139,87,839,637" />
 	<window data="" class="moduleselection" pos="369,161,1069,691" />
 	<window data="" class="portraitselection" pos="488,276,948,576" />
 	<window data="" class="tokenbag" pos="363,222,763,622" />
@@ -10,13 +10,20 @@
 	<window data="battle.bat_p1_04_07_twinpoolscave@DD Lost Mine of Phandelver" class="battle" pos="545,226,895,626" />
 	<window data="battle.bat_p1_04_08_klarg_scave@DD Lost Mine of Phandelver" class="battle" pos="545,226,895,626" />
 	<window data="charsheet.id-00001" class="char_weaponmeta" pos="518,338,918,513" />
-	<window data="charsheet.id-00001" class="charsheet" pos="788,40,1313,640" />
+	<window data="charsheet.id-00001" class="charsheet" pos="405,118,930,718" />
 	<window data="charsheet.id-00001" class="charsheet_classes" pos="518,276,918,576" />
+	<window data="charsheet.id-00002" class="charsheet" pos="249,84,774,684" />
 	<window data="charsheet.id-00003" class="charsheet" pos="455,126,980,726" />
 	<window data="charsheet.id-00003" class="charsheet_classes" pos="518,276,918,576" />
 	<window data="charsheet.id-00004" class="charsheet" pos="455,126,980,726" />
 	<window data="charsheet.id-00004.powergroup.id-00001" class="power_groupdetail" pos="503,281,933,571" />
-	<window data="charsheet.id-00006" class="charsheet" pos="457,126,982,726" />
+	<window data="charsheet.id-00006" class="charsheet" pos="461,103,986,703" />
+	<window data="charsheet.id-00007" class="charsheet" pos="249,84,774,684" />
+	<window data="charsheet.id-00007.powers.id-00005" class="power" pos="287,159,737,609" />
+	<window data="charsheet.id-00007.powers.id-00007" class="power" pos="287,159,737,609" />
+	<window data="charsheet.id-00007.powers.id-00007.actions.id-00001" class="power_heal_editor" pos="337,209,687,559" />
+	<window data="charsheet.id-00007.powers.id-00008" class="power" pos="287,159,737,609" />
+	<window data="charsheet.id-00007.powers.id-00009" class="power" pos="287,159,737,609" />
 	<window data="combattracker" class="combattracker_host" pos="504,60,1154,560" />
 	<window data="combattracker.list.id-00003" class="npc" pos="718,114,1178,664" />
 	<window data="encounter" class="encounterlist" pos="913,102,1213,502" />
@@ -66,6 +73,7 @@
 	<window data="npc.goblin@DD Lost Mine of Phandelver" class="npc" pos="488,151,948,701" />
 	<window data="npc.klarg@DD Lost Mine of Phandelver" class="npc" pos="181,17,666,567" />
 	<window data="partysheet" class="partysheet_host" pos="430,76,1230,576" />
+	<window data="reference.backgrounddata.spy@DD PHB Deluxe" class="reference_background" pos="312,184,712,584" />
 	<window data="reference.classdata.druid.features.spellcasting1@DD PHB Deluxe" class="reference_classfeature" pos="519,326,1047,654" />
 	<window data="reference.classdata.druid@DD PHB Deluxe" class="reference_class" pos="519,226,919,626" />
 	<window data="reference.classdata.monk@DD PHB Deluxe" class="reference_class" pos="519,226,1208,740" />
@@ -84,17 +92,25 @@
 	<window data="reference.imagedata.img_warlock_jpg@DD PHB Deluxe" class="imagewindow" pos="455,55,983,796" />
 	<window data="reference.npclists.bylevel@DD MM Monster Manual" class="reference_colindex" pos="493,201,943,651" />
 	<window data="reference.npclists.npcs@DD MM Monster Manual" class="referenceindex" pos="542,228,892,678" />
+	<window data="reference.racedata.dragonborn@DD PHB Deluxe" class="reference_race" pos="312,184,712,584" />
+	<window data="reference.racedata.elf.subraces.woodelf.traits.abilityscoreincrease@DD PHB PC Customization Pack" class="reference_subracialtrait" pos="312,184,712,584" />
+	<window data="reference.racedata.elf.subraces.woodelf@DD PHB PC Customization Pack" class="reference_subrace" pos="312,184,712,584" />
 	<window data="reference.racedata.elf.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
-	<window data="reference.racedata.elf@DD PHB Deluxe" class="reference_race" pos="519,226,1262,783" />
+	<window data="reference.racedata.elf.traits.subrace@DD PHB PC Customization Pack" class="reference_racialtrait" pos="312,184,712,584" />
+	<window data="reference.racedata.elf@DD PHB Deluxe" class="reference_race" pos="161,78,904,635" />
+	<window data="reference.racedata.elf@DD PHB PC Customization Pack" class="reference_race" pos="312,184,712,584" />
 	<window data="reference.racedata.half_elf.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
 	<window data="reference.racedata.half_elf.traits.age@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
 	<window data="reference.racedata.half_elf.traits.speed@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
 	<window data="reference.racedata.half_elf@DD PHB Deluxe" class="reference_race" pos="519,226,1111,698" />
+	<window data="reference.racedata.human.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="312,184,712,584" />
+	<window data="reference.racedata.human@DD PHB Deluxe" class="reference_race" pos="312,184,712,584" />
 	<window data="reference.racedata.human_variant.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
 	<window data="reference.racedata.human_variant.traits.feat@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
 	<window data="reference.racedata.human_variant.traits.skills@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
 	<window data="reference.racedata.human_variant@DD PHB Deluxe" class="reference_race" pos="519,226,1307,650" />
-	<window data="reference.racelists.byletter@DD PHB Deluxe" class="reference_colindex" pos="836,31,1315,526" />
+	<window data="reference.racelists.byletter@DD PHB Deluxe" class="reference_colindex" pos="493,58,943,648" />
+	<window data="reference.racelists.byletter@DD PHB PC Customization Pack" class="reference_colindex" pos="287,159,737,609" />
 	<window data="reference.refmanualindex@DD Basic Rules - DM" class="reference_manual" pos="244,101,1194,751" />
 	<window data="reference.refmanualindex@DD PHB Deluxe" class="reference_manual" pos="58,18,1008,668" />
 	<window data="reference.spelldata.curewounds@DD PHB Deluxe" class="reference_spell" pos="519,226,919,626" />

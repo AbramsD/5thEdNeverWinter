@@ -3,4 +3,7 @@
 	<extension name="Decal_LMOP">
 		<loaded />
 	</extension>
+	<extension name="Decal_PHB">
+		<loaded />
+	</extension>
 </extensionstate>
