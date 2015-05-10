@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.0" release="3|CoreRPG:3" integrity="3ef1f94e04b5e8858832124a3dba29fb3dfb20a5">
+	<image>
+		<category name="FG Battle Maps" mergeid="FG Battle Maps" baseicon="0" decalicon="0">
+			<id-00002>
+				<image type="image">
+					<bitmap>BattleMap02.jpg</bitmap>
+				</image>
+			</id-00002>
+			<id-00006>
+				<image type="image">
+					<bitmap>BattleMap_outdoor1.jpg</bitmap>
+				</image>
+			</id-00006>
+			<id-00007>
+				<public />
+				<image type="image">
+					<bitmap>BattleMap_outdoor2.jpg</bitmap>
+					<mask>maskedimages/1430712640.png</mask>
+					<drawing>drawings/drawing_1430710393.png</drawing>
+					<tokens>
+						<idcounter>21</idcounter>
+						<scalelock>0.99</scalelock>
+						<token>
+							<prototype>tokens/ridinghorse.png@DD MM Monster Manual</prototype>
+							<id>10</id>
+							<x>580</x>
+							<y>335</y>
+							<scale>0.3</scale>
+							<orientation>2</orientation>
+						</token>
+						<token>
+							<prototype>tokens/ridinghorse.png@DD MM Monster Manual</prototype>
+							<id>9</id>
+							<x>528</x>
+							<y>391</y>
+							<scale>0.3</scale>
+							<orientation>2</orientation>
+						</token>
+						<token>
+							<prototype>tokens/shared/General/w.png</prototype>
+							<id>18</id>
+							<x>422</x>
+							<y>426</y>
+							<scale>1.7</scale>
+						</token>
+						<token>
+							<prototype>tokens/shared/General/o.png</prototype>
+							<id>19</id>
+							<x>476</x>
+							<y>424</y>
+							<scale>1.7</scale>
+						</token>
+						<token>
+							<prototype>tokens/shared/Miscellaneous/hand.png</prototype>
+							<id>21</id>
+							<x>837</x>
+							<y>155</y>
+						</token>
+					</tokens>
+				</image>
+			</id-00007>
+			<id-00011>
+				<image type="image">
+					<bitmap>Streets1.jpg</bitmap>
+				</image>
+			</id-00011>
+			<id-00012>
+				<image type="image">
+					<bitmap>Streets2.jpg</bitmap>
+				</image>
+			</id-00012>
+			<id-00013>
+				<image type="image">
+					<bitmap>Streets3.jpg</bitmap>
+				</image>
+			</id-00013>
+			<id-00014>
+				<image type="image">
+					<bitmap>Streets4.jpg</bitmap>
+				</image>
+			</id-00014>
+		</category>
+	</image>
+</root>

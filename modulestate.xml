@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<modulestate version="3.0">
+	<module name="DD Basic Rules - DM">
+		<loaded />
+		<disallow />
+	</module>
+	<module name="DD Basic Rules - Player">
+		<loaded />
+		<allow />
+	</module>
+	<module name="DD Lost Mine of Phandelver">
+		<loaded />
+	</module>
+	<module name="DD MM Monster Manual">
+		<loaded />
+	</module>
+	<module name="DD PHB Deluxe">
+		<loaded />
+		<allow />
+	</module>
+	<module name="DD PHB PC Customization Pack">
+		<loaded />
+		<allow />
+	</module>
+	<module name="Default Fumble and Critical Hit Tables">
+		<loaded />
+	</module>
+	<module name="FG Battle Maps">
+		<loaded />
+	</module>
+</modulestate>

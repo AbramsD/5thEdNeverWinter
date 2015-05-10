@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<windowstate version="3.0">
+	<window data="" class="library" pos="426,96,1126,646" />
+	<window data="" class="moduleselection" pos="369,161,1069,691" />
+	<window data="" class="portraitselection" pos="488,276,948,576" />
+	<window data="" class="tokenbag" pos="363,222,763,622" />
+	<window data="battle" class="battlelist" pos="569,226,869,626" />
+	<window data="battle.bat_p1_03goblinambush@DD Lost Mine of Phandelver" class="battle" pos="873,107,1223,507" />
+	<window data="battle.bat_p1_04_05_overpass@DD Lost Mine of Phandelver" class="battle" pos="545,226,895,626" />
+	<window data="battle.bat_p1_04_07_twinpoolscave@DD Lost Mine of Phandelver" class="battle" pos="545,226,895,626" />
+	<window data="battle.bat_p1_04_08_klarg_scave@DD Lost Mine of Phandelver" class="battle" pos="545,226,895,626" />
+	<window data="charsheet.id-00001" class="char_weaponmeta" pos="518,338,918,513" />
+	<window data="charsheet.id-00001" class="charsheet" pos="788,40,1313,640" />
+	<window data="charsheet.id-00001" class="charsheet_classes" pos="518,276,918,576" />
+	<window data="charsheet.id-00003" class="charsheet" pos="455,126,980,726" />
+	<window data="charsheet.id-00003" class="charsheet_classes" pos="518,276,918,576" />
+	<window data="charsheet.id-00004" class="charsheet" pos="455,126,980,726" />
+	<window data="charsheet.id-00004.powergroup.id-00001" class="power_groupdetail" pos="503,281,933,571" />
+	<window data="charsheet.id-00006" class="charsheet" pos="457,126,982,726" />
+	<window data="combattracker" class="combattracker_host" pos="504,60,1154,560" />
+	<window data="combattracker.list.id-00003" class="npc" pos="718,114,1178,664" />
+	<window data="encounter" class="encounterlist" pos="913,102,1213,502" />
+	<window data="encounter.enc__contents_@DD Lost Mine of Phandelver" class="encounter" pos="519,101,919,751" />
+	<window data="encounter.enc_p0_01conversionnotes@DD Lost Mine of Phandelver" class="encounter" pos="352,61,1153,721" />
+	<window data="encounter.enc_p0_02credits@DD Lost Mine of Phandelver" class="encounter" pos="519,101,919,751" />
+	<window data="encounter.enc_p0_03introduction@DD Lost Mine of Phandelver" class="encounter" pos="519,101,919,751" />
+	<window data="encounter.enc_p0_04runningtheadventure@DD Lost Mine of Phandelver" class="encounter" pos="519,101,919,751" />
+	<window data="encounter.enc_p0_05background@DD Lost Mine of Phandelver" class="encounter" pos="519,101,1140,767" />
+	<window data="encounter.enc_p0_06overview@DD Lost Mine of Phandelver" class="encounter" pos="519,101,1180,732" />
+	<window data="encounter.enc_p0_07adventurehook@DD Lost Mine of Phandelver" class="encounter" pos="519,101,1167,692" />
+	<window data="encounter.enc_p0_08theforgottenrealms@DD Lost Mine of Phandelver" class="encounter" pos="519,101,1158,738" />
+	<window data="encounter.enc_p0_11appendixb_monsters@DD Lost Mine of Phandelver" class="encounter" pos="519,101,919,751" />
+	<window data="encounter.enc_p1_01_index_part1@DD Lost Mine of Phandelver" class="encounter" pos="519,101,919,751" />
+	<window data="encounter.enc_p1_02goblinarrows@DD Lost Mine of Phandelver" class="encounter" pos="383,65,783,715" />
+	<window data="encounter.enc_p1_03goblinambush@DD Lost Mine of Phandelver" class="encounter" pos="633,32,1275,686" />
+	<window data="encounter.enc_p1_04_00cragmawhideout@DD Lost Mine of Phandelver" class="encounter" pos="985,48,1391,718" />
+	<window data="encounter.enc_p1_04_01_cavemouth@DD Lost Mine of Phandelver" class="encounter" pos="518,101,918,751" />
+	<window data="encounter.enc_p1_04_02_goblinblind@DD Lost Mine of Phandelver" class="encounter" pos="520,101,920,751" />
+	<window data="encounter.enc_p1_04_03_kennel@DD Lost Mine of Phandelver" class="encounter" pos="520,101,1222,743" />
+	<window data="encounter.enc_p1_04_04_steeppassage@DD Lost Mine of Phandelver" class="encounter" pos="763,34,1320,684" />
+	<window data="encounter.enc_p1_04_05_overpass@DD Lost Mine of Phandelver" class="encounter" pos="820,26,1351,681" />
+	<window data="encounter.enc_p1_04_06_goblinden@DD Lost Mine of Phandelver" class="encounter" pos="474,63,1147,748" />
+	<window data="encounter.enc_p1_04_07_twinpoolscave@DD Lost Mine of Phandelver" class="encounter" pos="819,50,1219,700" />
+	<window data="encounter.enc_p1_04_08_klarg_scave@DD Lost Mine of Phandelver" class="encounter" pos="673,64,1262,714" />
+	<window data="encounter.enc_p1_05what_snext_@DD Lost Mine of Phandelver" class="encounter" pos="520,101,920,751" />
+	<window data="encounter.enc_p2_01_index_part2@DD Lost Mine of Phandelver" class="encounter" pos="520,101,920,751" />
+	<window data="encounter.enc_p2_02phandalin@DD Lost Mine of Phandelver" class="encounter" pos="520,101,1220,727" />
+	<window data="encounter.enc_p2_05_barthen_sprovisions@DD Lost Mine of Phandelver" class="encounter" pos="520,101,920,751" />
+	<window data="image" class="imagelist" pos="775,164,1075,564" />
+	<window data="image.id-00002@FG Battle Maps" class="imagewindow" pos="95,0,1343,852" />
+	<window data="image.id-00006@FG Battle Maps" class="imagewindow" pos="563,20,1274,773" />
+	<window data="image.id-00007@FG Battle Maps" class="imagewindow" pos="357,58,1070,711" />
+	<window data="image.img_bugbear_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="540,183,899,668" />
+	<window data="image.img_cragmawcastle_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="125,48,1285,900" />
+	<window data="image.img_cragmawhideout_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="-1,-47,807,551" />
+	<window data="image.img_cragmawhideout_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="93,-22,1191,800" />
+	<window data="image.img_goblin_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="488,113,949,738" />
+	<window data="image.img_phandalin_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="200,37,1238,814" />
+	<window data="image.img_theswordcoast_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="387,0,1048,852" />
+	<window data="image.img_theswordcoast_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="463,18,1216,783" />
+	<window data="image.img_theswordcoast_player_lores_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="440,12,1088,828" />
+	<window data="item" class="itemlist" pos="569,226,869,626" />
+	<window data="lists.encounter.bycategory@DD Lost Mine of Phandelver" class="reference_colindex" pos="494,201,1115,801" />
+	<window data="notes" class="notelist" pos="569,226,869,626" />
+	<window data="npc" class="npclist" pos="569,226,869,626" />
+	<window data="npc.goblin@DD Lost Mine of Phandelver" class="npc" pos="488,151,948,701" />
+	<window data="npc.klarg@DD Lost Mine of Phandelver" class="npc" pos="181,17,666,567" />
+	<window data="partysheet" class="partysheet_host" pos="430,76,1230,576" />
+	<window data="reference.classdata.druid.features.spellcasting1@DD PHB Deluxe" class="reference_classfeature" pos="519,326,1047,654" />
+	<window data="reference.classdata.druid@DD PHB Deluxe" class="reference_class" pos="519,226,919,626" />
+	<window data="reference.classdata.monk@DD PHB Deluxe" class="reference_class" pos="519,226,1208,740" />
+	<window data="reference.classdata.sorcerer@DD PHB Deluxe" class="reference_class" pos="519,226,919,626" />
+	<window data="reference.classdata.warlock@DD PHB Deluxe" class="reference_class" pos="519,226,1243,616" />
+	<window data="reference.classdata.wizard.abilities.schoolofabjuration@DD PHB Deluxe" class="reference_classability" pos="519,326,1101,633" />
+	<window data="reference.classdata.wizard.abilities.schoolofevocation@DD PHB Deluxe" class="reference_classability" pos="519,326,1078,665" />
+	<window data="reference.classdata.wizard.features.abjurationsavant2@DD PHB Deluxe" class="reference_classfeature" pos="519,326,919,526" />
+	<window data="reference.classdata.wizard.features.arcaneward2@DD PHB Deluxe" class="reference_classfeature" pos="519,326,1051,680" />
+	<window data="reference.classdata.wizard.features.projectedward6@DD PHB Deluxe" class="reference_classfeature" pos="519,326,1031,565" />
+	<window data="reference.classdata.wizard.features.spellresistance14@DD PHB Deluxe" class="reference_classfeature" pos="519,326,919,526" />
+	<window data="reference.classdata.wizard@DD PHB Deluxe" class="reference_class" pos="519,226,1239,649" />
+	<window data="reference.classlists.byletter@DD PHB Deluxe" class="reference_colindex" pos="502,200,952,650" />
+	<window data="reference.imagedata.img_bugbear_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="446,132,1106,771" />
+	<window data="reference.imagedata.img_monk_jpg@DD PHB Deluxe" class="imagewindow" pos="465,62,970,789" />
+	<window data="reference.imagedata.img_warlock_jpg@DD PHB Deluxe" class="imagewindow" pos="455,55,983,796" />
+	<window data="reference.npclists.bylevel@DD MM Monster Manual" class="reference_colindex" pos="493,201,943,651" />
+	<window data="reference.npclists.npcs@DD MM Monster Manual" class="referenceindex" pos="542,228,892,678" />
+	<window data="reference.racedata.elf.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.elf@DD PHB Deluxe" class="reference_race" pos="519,226,1262,783" />
+	<window data="reference.racedata.half_elf.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.half_elf.traits.age@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.half_elf.traits.speed@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.half_elf@DD PHB Deluxe" class="reference_race" pos="519,226,1111,698" />
+	<window data="reference.racedata.human_variant.traits.abilityscoreincrease@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.human_variant.traits.feat@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.human_variant.traits.skills@DD PHB Deluxe" class="reference_racialtrait" pos="519,226,919,626" />
+	<window data="reference.racedata.human_variant@DD PHB Deluxe" class="reference_race" pos="519,226,1307,650" />
+	<window data="reference.racelists.byletter@DD PHB Deluxe" class="reference_colindex" pos="836,31,1315,526" />
+	<window data="reference.refmanualindex@DD Basic Rules - DM" class="reference_manual" pos="244,101,1194,751" />
+	<window data="reference.refmanualindex@DD PHB Deluxe" class="reference_manual" pos="58,18,1008,668" />
+	<window data="reference.spelldata.curewounds@DD PHB Deluxe" class="reference_spell" pos="519,226,919,626" />
+	<window data="reference.spelldata.druidcraft@DD PHB Deluxe" class="reference_spell" pos="625,349,1025,749" />
+	<window data="reference.spelldata.shillelagh@DD PHB Deluxe" class="reference_spell" pos="519,226,919,626" />
+	<window data="reference.spelllists.druid@DD PHB Deluxe" class="reference_colindex" pos="764,68,1214,518" />
+	<window data="treasureparcels.par_8_klarg_scave@DD Lost Mine of Phandelver" class="treasureparcel" pos="470,251,970,601" />
+
+	<image data="image.id-00006@FG Battle Maps" class="imagewindow" control="image" view="0,0" zoom="0.555" />
+	<image data="image.id-00007@FG Battle Maps" class="imagewindow" control="image" view="0,0" zoom="0.554167" />
+	<image data="image.img_cragmawhideout_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="1.44762" />
+	<image data="image.img_theswordcoast_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,-193" zoom="0.569467" />
+	<image data="image.img_theswordcoast_player_lores_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="-31,-50" zoom="1.07" />
+	<image data="reference.imagedata.img_bugbear_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="1.532" />
+</windowstate>

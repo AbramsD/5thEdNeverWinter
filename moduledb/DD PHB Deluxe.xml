@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.0" release="3|CoreRPG:3" integrity="7aafc67275acf3752024e3a15d77490264f3cbb8">
+	<reference>
+		<imagedata>
+			<img_hermit_jpg>
+				<image type="image">
+					<bitmap>images/Hermit.jpg</bitmap>
+				</image>
+			</img_hermit_jpg>
+			<img_monk_jpg>
+				<image type="image">
+					<bitmap>images/Monk.jpg</bitmap>
+				</image>
+			</img_monk_jpg>
+			<img_warlock_jpg>
+				<image type="image">
+					<bitmap>images/Warlock.jpg</bitmap>
+				</image>
+			</img_warlock_jpg>
+		</imagedata>
+	</reference>
+</root>
