@@ -1945,7 +1945,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">18</total>
+				<total type="number">20</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -3641,7 +3641,7 @@
 				</id-00003>
 				<id-00004>
 					<holder name="Tim" owner="true" />
-					<name type="string">Cunning Action: </name>
+					<name type="string">Cunning Action:</name>
 				</id-00004>
 			</featurelist>
 			<gender type="string">M</gender>
@@ -6891,7 +6891,7 @@
 				<hd type="number">2</hd>
 				<hdused type="number">1</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">18</hptotal>
+				<hptotal type="number">20</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">10</intelligence>
 				<link type="windowreference">

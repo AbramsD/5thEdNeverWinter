@@ -343,7 +343,6 @@
 					<tokens>
 						<idcounter>37</idcounter>
 						<scalelock>1.78571</scalelock>
-						<orientationcount>6</orientationcount>
 						<token>
 							<prototype>tokens/shared/Miscellaneous/skull.png</prototype>
 							<id>12</id>
@@ -412,7 +411,7 @@
 							<y>257</y>
 							<name>Yemeek</name>
 							<unmodifiable />
-							<visibilitylocked>on</visibilitylocked>
+							<visibilitylocked>off</visibilitylocked>
 						</token>
 						<token>
 							<prototype>portrait_id-00004_token</prototype>
@@ -430,7 +429,7 @@
 							<scale>0.5</scale>
 							<name>Sildar Hallwinter</name>
 							<unmodifiable />
-							<visibilitylocked>on</visibilitylocked>
+							<visibilitylocked>off</visibilitylocked>
 						</token>
 						<token>
 							<prototype>portrait_id-00007_token</prototype>
