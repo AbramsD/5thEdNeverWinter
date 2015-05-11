@@ -72,25 +72,49 @@
 							<id-id-00001>
 								<imageref type="windowreference">
 									<class>imagewindow</class>
-									<recordname>image.img_cragmawhideout_player__jpg.image@*</recordname>
+									<recordname>image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
+								<imagey type="number">403</imagey>
 							</id-id-00001>
 							<id-id-00002>
 								<imageref type="windowreference">
 									<class>imagewindow</class>
-									<recordname>image.img_cragmawhideout_player__jpg.image@*</recordname>
+									<recordname>image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
+								<imagex type="number">541</imagex>
+								<imagey type="number">438</imagey>
 							</id-id-00002>
 							<id-id-00003>
 								<imageref type="windowreference">
 									<class>imagewindow</class>
-									<recordname>image.img_cragmawhideout_player__jpg.image@*</recordname>
+									<recordname>image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
+								<imagex type="number">576</imagex>
+								<imagey type="number">368</imagey>
 							</id-id-00003>
 						</maplink>
 					</id-00001>
 				</npclist>
 			</bat_p1_04_03_kennel>
+			<bat_p1_04_05_overpass>
+				<npclist>
+					<id-00001>
+						<maplink>
+							<id-id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</recordname>
+								</imageref>
+								<imagey type="number">158</imagey>
+							</id-id-00001>
+						</maplink>
+					</id-00001>
+				</npclist>
+			</bat_p1_04_05_overpass>
+			<bat_p1_04_06_goblinden>
+				<exp type="number">250</exp>
+				<locked type="number">1</locked>
+			</bat_p1_04_06_goblinden>
 		</category>
 		<category name="LMoP - Part 2" mergeid="" baseicon="2" decalicon="1">
 		</category>
@@ -266,9 +290,6 @@
 				<image type="image">
 					<bitmap>images/Cragmaw Hideout (Player).jpg</bitmap>
 					<mask>maskedimages/1430716303.png</mask>
-					<gridsize>35</gridsize>
-					<gridoffset>33,0</gridoffset>
-					<gridsnap>on</gridsnap>
 					<shortcuts>
 						<shortcut>
 							<x>296</x>
@@ -320,44 +341,119 @@
 						</shortcut>
 					</shortcuts>
 					<tokens>
-						<idcounter>5</idcounter>
+						<idcounter>37</idcounter>
 						<scalelock>1.78571</scalelock>
+						<orientationcount>6</orientationcount>
+						<token>
+							<prototype>tokens/shared/Miscellaneous/skull.png</prototype>
+							<id>12</id>
+							<x>857</x>
+							<y>298</y>
+							<scale>1.38889</scale>
+							<orientation>1</orientation>
+						</token>
 						<token>
 							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>1</id>
-							<x>471</x>
-							<y>578</y>
+							<id>35</id>
+							<x>84</x>
+							<y>225</y>
+							<name>Goblin 5</name>
+							<unmodifiable />
 							<visibilitylocked>off</visibilitylocked>
 						</token>
 						<token>
 							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>2</id>
-							<x>506</x>
-							<y>578</y>
+							<id>32</id>
+							<x>160</x>
+							<y>250</y>
+							<name>Goblin 2</name>
+							<unmodifiable />
 							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/shared/Miscellaneous/hand.png</prototype>
+							<id>30</id>
+							<x>186</x>
+							<y>300</y>
+							<orientation>3</orientation>
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>34</id>
+							<x>185</x>
+							<y>294</y>
+							<name>Goblin 4</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>31</id>
+							<x>178</x>
+							<y>192</y>
+							<name>Goblin 1</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>33</id>
+							<x>282</x>
+							<y>196</y>
+							<name>Goblin 3</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/yemeek.png@DD Lost Mine of Phandelver</prototype>
+							<id>36</id>
+							<x>836</x>
+							<y>257</y>
+							<name>Yemeek</name>
+							<unmodifiable />
+							<visibilitylocked>on</visibilitylocked>
 						</token>
 						<token>
 							<prototype>portrait_id-00004_token</prototype>
 							<id>4</id>
-							<x>261</x>
-							<y>683</y>
+							<x>229</x>
+							<y>574</y>
 							<name>Oliver Vane</name>
 							<visibilitylocked>on</visibilitylocked>
 						</token>
 						<token>
-							<prototype>portrait_id-00002_token</prototype>
-							<id>3</id>
-							<x>296</x>
-							<y>613</y>
-							<name>Weyland Eromere</name>
+							<prototype>tokens/S.png@DD Lost Mine of Phandelver</prototype>
+							<id>37</id>
+							<x>297</x>
+							<y>543</y>
+							<scale>0.5</scale>
+							<name>Sildar Hallwinter</name>
+							<unmodifiable />
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00007_token</prototype>
+							<id>10</id>
+							<x>365</x>
+							<y>505</y>
+							<name>Ehnora</name>
 							<visibilitylocked>on</visibilitylocked>
 						</token>
 						<token>
 							<prototype>portrait_id-00003_token</prototype>
 							<id>5</id>
-							<x>261</x>
-							<y>648</y>
+							<x>269</x>
+							<y>540</y>
 							<name>Argus Evertor</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00002_token</prototype>
+							<id>3</id>
+							<x>329</x>
+							<y>515</y>
+							<name>Weyland Eromere</name>
 							<visibilitylocked>on</visibilitylocked>
 						</token>
 					</tokens>
@@ -368,6 +464,73 @@
 					<bitmap>images/Goblin.jpg</bitmap>
 				</image>
 			</img_goblin_jpg>
+			<img_phandalin_jpg>
+				<image type="image">
+					<bitmap>images/Phandalin.jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>343</x>
+							<y>204</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_stonehillinn@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>399</x>
+							<y>140</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_barthen_sprovisions@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>198</x>
+							<y>156</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_edermathorchard@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>254</x>
+							<y>273</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_lionshieldcoster@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>244</x>
+							<y>347</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_phandalinminer_sexchange@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>488</x>
+							<y>342</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_alderleaffarm@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>290</x>
+							<y>208</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_shrineofluck@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>461</x>
+							<y>216</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_thesleepinggiant@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>333</x>
+							<y>268</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_townmaster_shall@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+						<shortcut>
+							<x>652</x>
+							<y>200</y>
+							<class>encounter</class>
+							<recordname>encounter.enc_p2_05_tresendarmanor@DD Lost Mine of Phandelver</recordname>
+						</shortcut>
+					</shortcuts>
+				</image>
+			</img_phandalin_jpg>
 			<img_phandalin_player__jpg>
 				<image type="image">
 					<bitmap>images/Phandalin (Player).jpg</bitmap>
@@ -449,16 +612,27 @@
 						<token>
 							<prototype>tokens/shared/Miscellaneous/hand.png</prototype>
 							<id>1</id>
-							<x>535</x>
-							<y>1188</y>
+							<x>712</x>
+							<y>972</y>
 							<orientation>3</orientation>
 						</token>
 					</tokens>
 				</image>
 			</img_theswordcoast_player__jpg>
 			<img_theswordcoast_player_lores_jpg>
+				<public />
 				<image type="image">
 					<bitmap>images/The Sword Coast (Player) LoRes.jpg</bitmap>
+					<tokens>
+						<idcounter>1</idcounter>
+						<token>
+							<prototype>tokens/shared/Miscellaneous/hand.png</prototype>
+							<id>1</id>
+							<x>285</x>
+							<y>547</y>
+							<orientation>2</orientation>
+						</token>
+					</tokens>
 				</image>
 			</img_theswordcoast_player_lores_jpg>
 		</category>
@@ -481,6 +655,25 @@
 					</wisdom>
 				</abilities>
 			</goblin>
+			<kinggroll>
+				<abilities>
+					<charisma>
+						<bonus type="number">-1</bonus>
+					</charisma>
+					<constitution>
+						<bonus type="number">1</bonus>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">-1</bonus>
+					</intelligence>
+					<strength>
+						<bonus type="number">2</bonus>
+					</strength>
+				</abilities>
+			</kinggroll>
 			<klarg>
 				<abilities>
 					<charisma>

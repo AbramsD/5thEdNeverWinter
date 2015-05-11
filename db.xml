@@ -41,9 +41,9 @@
 				</dexterity>
 				<intelligence>
 					<bonus type="number">2</bonus>
-					<save type="number">2</save>
+					<save type="number">4</save>
 					<savemodifier type="number">0</savemodifier>
-					<saveprof type="number">0</saveprof>
+					<saveprof type="number">1</saveprof>
 					<score type="number">15</score>
 				</intelligence>
 				<strength>
@@ -55,9 +55,9 @@
 				</strength>
 				<wisdom>
 					<bonus type="number">2</bonus>
-					<save type="number">2</save>
+					<save type="number">4</save>
 					<savemodifier type="number">0</savemodifier>
-					<saveprof type="number">0</saveprof>
+					<saveprof type="number">1</saveprof>
 					<score type="number">14</score>
 				</wisdom>
 			</abilities>
@@ -79,6 +79,16 @@
 						<recordname>reference.classdata.monk@DD PHB Deluxe</recordname>
 					</shortcut>
 				</id-00001>
+				<id-00002>
+					<hddie type="dice">d6</hddie>
+					<hdused type="number">0</hdused>
+					<level type="number">1</level>
+					<name type="string">Wizard</name>
+					<shortcut type="windowreference">
+						<class>reference_class</class>
+						<recordname>reference.classdata.wizard@DD PHB Deluxe</recordname>
+					</shortcut>
+				</id-00002>
 			</classes>
 			<coins>
 				<slot1>
@@ -160,13 +170,64 @@
 						<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>
 					</text>
 				</id-00002>
+				<id-00003>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Spellcasting</name>
+					<source type="string">Wizard</source>
+					<text type="formattedtext">
+						<p>As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</p>
+						<linklist>
+							<link class="reference_colindex" recordname="reference.spelllists.wizard@DD PHB Deluxe">Wizards Spells</link>
+						</linklist>
+						<p><b>Cantrips</b></p>
+						<p>At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.</p>
+						<p><b>Spellbook</b></p>
+						<p>At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice.</p>
+						<p><b>Preparing and Casting Spells</b></p>
+						<p>The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+						<p>You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+						<p>For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+						<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.</p>
+						<p><b>Spellcasting Ability</b></p>
+						<p>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability.</p>
+						<p>In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.</p>
+						<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Intelligence modifier</p>
+						<p><b>Spell attack modifier </b>= your proficiency bonus + your Intelligence modifier</p>
+						<p><b>Ritual Casting</b></p>
+						<p>You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.</p>
+						<p><b>Spellcasting Focus</b></p>
+						<p>You can use an arcane focus (found in chapter 5) as a spellcasting focus for your wizard spells.</p>
+						<p><b>Learning Spells of 1st Level and Higher</b></p>
+						<p>Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your</p>
+						<p>adventures, you might find other spells that you can add to your spellbook (see the &#34;Your Spellbook&#34; sidebar).</p>
+						<h>Your Spellbook</h>
+						<p>The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.</p>
+						<p><b><i>Copying a Spell into the book. </i></b>When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it.</p>
+						<p>Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.</p>
+						<p>For each level of the spell, the process takes 2 hours and costs 50gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.</p>
+						<p><b><i>Replacing the Book. </i></b>You can copy a spell from your own spellbook into another book-for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell. If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new</p>
+						<p>spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.</p>
+						<p><b><i>The Book's Appearance </i></b>Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Arcane Recovery</name>
+					<source type="string">Wizard</source>
+					<text type="formattedtext">
+						<p>You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.</p>
+						<p>For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.</p>
+					</text>
+				</id-00004>
 			</featurelist>
 			<flaws type="string">I am dogmatic in my thoughts and philosophy.</flaws>
 			<gender type="string">Male</gender>
 			<height type="string">5'11&#34;</height>
 			<hp>
 				<temporary type="number">0</temporary>
-				<total type="number">8</total>
+				<total type="number">14</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<ideals type="string">Self-Knowledge. If you know yourself, there's nothing left to know. (Any)</ideals>
@@ -347,13 +408,24 @@
 					<name type="string">Choice</name>
 				</id-00003>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Yelven</name>
 			<perception type="number">12</perception>
 			<personalitytraits type="string">I'm oblivious to etiquette and social expectations.</personalitytraits>
+			<powergroup>
+				<id-00001>
+					<atkprof type="number">1</atkprof>
+					<castertype type="string">memorization</castertype>
+					<name type="string">Spells</name>
+					<prepared type="number">3</prepared>
+					<saveprof type="number">1</saveprof>
+					<uses type="number">0</uses>
+				</id-00001>
+			</powergroup>
 			<powermeta>
 				<spellslots1>
-					<max type="number">0</max>
+					<max type="number">2</max>
+					<used type="number">0</used>
 				</spellslots1>
 				<spellslots2>
 					<max type="number">0</max>
@@ -380,7 +452,192 @@
 					<max type="number">0</max>
 				</spellslots9>
 			</powermeta>
+			<powermode type="string">combat</powermode>
 			<powers>
+				<id-00001>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p>
+						<p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p>
+						<p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>
+					</description>
+					<duration type="string">1 minute</duration>
+					<group type="string">Spells</group>
+					<level type="number">0</level>
+					<locked type="number">1</locked>
+					<name type="string">Mage Hand</name>
+					<prepared type="number">0</prepared>
+					<range type="string">30 feet</range>
+					<school type="string">Conjuration</school>
+					<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+				</id-00001>
+				<id-00002>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</p>
+					</description>
+					<duration type="string">1 round</duration>
+					<group type="string">Spells</group>
+					<level type="number">0</level>
+					<locked type="number">1</locked>
+					<name type="string">Blade Ward</name>
+					<prepared type="number">0</prepared>
+					<range type="string">Self</range>
+					<school type="string">Abjuration</school>
+					<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+				</id-00002>
+				<id-00003>
+					<actions>
+						<id-00001>
+							<order type="number">1</order>
+							<savetype type="string">dexterity</savetype>
+							<type type="string">cast</type>
+						</id-00001>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, M (a firefly or phosphorescent moss)</components>
+					<description type="formattedtext">
+						<p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p>
+						<p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p>
+					</description>
+					<duration type="string">1 hour</duration>
+					<group type="string">Spells</group>
+					<level type="number">0</level>
+					<locked type="number">1</locked>
+					<name type="string">Light</name>
+					<prepared type="number">0</prepared>
+					<range type="string">Touch</range>
+					<school type="string">Evocation</school>
+					<source type="string">Bard, Cleric, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+				</id-00003>
+				<id-00004>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</p>
+					</description>
+					<duration type="string">1 round</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Shield</name>
+					<prepared type="number">0</prepared>
+					<range type="string">Self</range>
+					<school type="string">Abjuration</school>
+					<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+				</id-00004>
+				<id-00005>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S, M (a piece of cured leather)</components>
+					<description type="formattedtext">
+						<p>You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.</p>
+					</description>
+					<duration type="string">8 hours</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Mage Armor</name>
+					<prepared type="number">1</prepared>
+					<range type="string">Touch</range>
+					<school type="string">Abjuration</school>
+					<source type="string">Eldritch Knight, Eldritch Invocations, Sorcerer, Wizard, Arcane Trickster</source>
+				</id-00005>
+				<id-00006>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 minute</castingtime>
+					<components type="string">V, S, M (a tiny bell and a piece of</components>
+					<description type="formattedtext">
+						<p>fine silver wire)</p>
+						<p>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.</p>
+						<p>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.</p>
+						<p>An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</p>
+					</description>
+					<duration type="string">8 hours</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Alarm</name>
+					<prepared type="number">0</prepared>
+					<range type="string">30 feet</range>
+					<school type="string">Abjuration</school>
+					<source type="string">Eldritch Knight, Ranger, Wizard, Arcane Trickster</source>
+				</id-00006>
+				<id-00009>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 bonus action</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>This spell allows you to move at an incredible pace.</p>
+						<p>When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.</p>
+					</description>
+					<duration type="string">Concentration, up to 10 minutes</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Expeditious Retreat</name>
+					<prepared type="number">1</prepared>
+					<range type="string">Self</range>
+					<school type="string">Transmutation</school>
+					<source type="string">Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+				</id-00009>
+				<id-00010>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 reaction, which you take when you or a creature within 60 feet of you falls</castingtime>
+					<components type="string">V, M (a small feather or p iece of down)</components>
+					<description type="formattedtext">
+						<p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p>
+					</description>
+					<duration type="string">1 minute</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Feather Fall</name>
+					<prepared type="number">0</prepared>
+					<range type="string">60 feet</range>
+					<school type="string">Transmutation</school>
+					<source type="string">Bard, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
+				</id-00010>
+				<id-00011>
+					<actions>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S, M (holy water or powdered silver and iron, which the spell consumes)</components>
+					<description type="formattedtext">
+						<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p>
+						<p>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>
+					</description>
+					<duration type="string">Concentration up to 10 minutes</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Protection from Evil and Good</name>
+					<prepared type="number">1</prepared>
+					<range type="string">Touch</range>
+					<school type="string">Abjuration</school>
+					<source type="string">Cleric, Eldritch Knight, Paladin, Warlock, Wizard, Arcane Trickster</source>
+				</id-00011>
 			</powers>
 			<profbonus type="number">2</profbonus>
 			<proficiencylist>
@@ -390,6 +647,9 @@
 				<id-00002>
 					<name type="string">Tool: Choose one type of artisan's tools or one musical instrument</name>
 				</id-00002>
+				<id-00003>
+					<name type="string">Weapon: Daggers, darts, slings, quarterstaffs, light crossbows</name>
+				</id-00003>
 			</proficiencylist>
 			<race type="string">Human-Variant</race>
 			<racelink type="windowreference">
@@ -422,7 +682,7 @@
 				<id-00004>
 					<misc type="number">0</misc>
 					<name type="string">Arcana</name>
-					<prof type="number">0</prof>
+					<prof type="number">1</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00004>
@@ -513,7 +773,7 @@
 				<id-00017>
 					<misc type="number">0</misc>
 					<name type="string">History</name>
-					<prof type="number">0</prof>
+					<prof type="number">1</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00017>
@@ -719,6 +979,13 @@
 					<level type="number">1</level>
 					<name type="string">Rogue</name>
 				</id-00001>
+				<id-00002>
+					<holder name="Sam" owner="true" />
+					<hddie type="dice">d10</hddie>
+					<hdused type="number">0</hdused>
+					<level type="number">1</level>
+					<name type="string">Fighter</name>
+				</id-00002>
 			</classes>
 			<coins>
 				<holder name="Sam" owner="true" />
@@ -748,11 +1015,11 @@
 				<ac>
 					<holder name="Sam" owner="true" />
 					<armor type="number">1</armor>
-					<misc type="number">0</misc>
+					<misc type="number">1</misc>
 					<prof type="number">1</prof>
 					<shield type="number">0</shield>
 					<temporary type="number">0</temporary>
-					<total type="number">14</total>
+					<total type="number">15</total>
 				</ac>
 			</defenses>
 			<deity type="string">Tymora</deity>
@@ -764,7 +1031,7 @@
 				<load type="number">64.25</load>
 				<max type="number">165</max>
 			</encumbrance>
-			<exp type="number">75</exp>
+			<exp type="number">301</exp>
 			<expneeded type="number">300</expneeded>
 			<featlist>
 				<holder name="Sam" owner="true" />
@@ -785,17 +1052,50 @@
 					<holder name="Sam" owner="true" />
 					<name type="string">Guild Membership</name>
 				</id-00001>
+				<id-00002>
+					<holder name="Sam" owner="true" />
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Fighting Style: Defense</name>
+					<source type="string">Fighter</source>
+					<text type="formattedtext">
+						<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+						<p><b>Archery</b></p>
+						<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+						<p><b>Defense</b></p>
+						<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+						<p><b>Dueling</b></p>
+						<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+						<p><b>Great Weapon Fighting</b></p>
+						<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+						<p><b>Protection</b></p>
+						<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+						<p><b>Two-Weapon Fighting</b></p>
+						<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<holder name="Sam" owner="true" />
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Second Wind</name>
+					<source type="string">Fighter</source>
+					<text type="formattedtext">
+						<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
+						<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+					</text>
+				</id-00003>
 			</featurelist>
 			<flaws type="string">I'm never satisfied with what I have, I always want more.</flaws>
 			<gender type="string">Male</gender>
 			<height type="string">6 ft</height>
 			<hp>
 				<holder name="Sam" owner="true" />
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
+				<deathsavefail type="number">1</deathsavefail>
+				<deathsavesuccess type="number">2</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">9</total>
-				<wounds type="number">3</wounds>
+				<total type="number">16</total>
+				<wounds type="number">4</wounds>
 			</hp>
 			<ideals type="string">Aspiration: I work hard to be the best at my craft.</ideals>
 			<initiative>
@@ -1127,7 +1427,7 @@
 					<name type="string">Dwarvish</name>
 				</id-00010>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Weyland Eromere</name>
 			<notes type="string">Weyland lives a bit of a double life. He has lifted himself out of poverty through his experience as a chef, but his desire for more compells him to take up the life of an adventurer.</notes>
 			<perception type="number">13</perception>
@@ -1199,11 +1499,11 @@
 				<holder name="Sam" owner="true" />
 				<id-00002>
 					<holder name="Sam" owner="true" />
-					<name type="string">Light Armor</name>
+					<name type="string">Light Armor, Medium Armor, Shields</name>
 				</id-00002>
 				<id-00003>
 					<holder name="Sam" owner="true" />
-					<name type="string">Simple Weapons, Hand Crossbow, Longswords, Rapiers, Shortswords</name>
+					<name type="string">Simple Weapons, Martial Weapons</name>
 				</id-00003>
 				<id-00004>
 					<holder name="Sam" owner="true" />
@@ -1410,6 +1710,7 @@
 				</id-00002>
 				<id-00003>
 					<holder name="Sam" owner="true" />
+					<ammo type="number">5</ammo>
 					<attackbonus type="number">0</attackbonus>
 					<damagelist>
 						<holder name="Sam" owner="true" />
@@ -1534,8 +1835,8 @@
 				<id-00001>
 					<holder name="Brad" owner="true" />
 					<hddie type="dice">d10</hddie>
-					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<hdused type="number">1</hdused>
+					<level type="number">2</level>
 					<name type="string">Fighter</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -1586,7 +1887,7 @@
 				<load type="number">102</load>
 				<max type="number">240</max>
 			</encumbrance>
-			<exp type="number">75</exp>
+			<exp type="number">301</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 				<holder name="Brad" owner="true" />
@@ -1644,7 +1945,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">12</total>
+				<total type="number">18</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -1857,7 +2158,7 @@
 					<name type="string">Orc</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Argus Evertor</name>
 			<perception type="number">13</perception>
 			<powermeta>
@@ -1919,6 +2220,7 @@
 				<holder name="Brad" owner="true" />
 				<id-00001>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Perception</name>
 					<prof type="number">1</prof>
 					<stat type="string">wisdom</stat>
@@ -1926,6 +2228,7 @@
 				</id-00001>
 				<id-00002>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Athletics</name>
 					<prof type="number">1</prof>
 					<stat type="string">strength</stat>
@@ -1933,6 +2236,7 @@
 				</id-00002>
 				<id-00003>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Intimidation</name>
 					<prof type="number">1</prof>
 					<stat type="string">charisma</stat>
@@ -1940,60 +2244,79 @@
 				</id-00003>
 				<id-00004>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">0</total>
 				</id-00004>
 				<id-00005>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Persuasion</name>
+					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
 					<total type="number">2</total>
 				</id-00005>
 				<id-00006>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Nature</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">0</total>
 				</id-00006>
 				<id-00007>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Medicine</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
 					<total type="number">1</total>
 				</id-00007>
 				<id-00008>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Survival</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
 					<total type="number">1</total>
 				</id-00008>
 				<id-00009>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Performance</name>
+					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
 					<total type="number">2</total>
 				</id-00009>
 				<id-00010>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Acrobatics</name>
+					<prof type="number">0</prof>
 					<stat type="string">dexterity</stat>
 					<total type="number">0</total>
 				</id-00010>
 				<id-00011>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Religion</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">0</total>
 				</id-00011>
 				<id-00012>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Sleight of Hand</name>
+					<prof type="number">0</prof>
 					<stat type="string">dexterity</stat>
 					<total type="number">0</total>
 				</id-00012>
 				<id-00013>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Insight</name>
 					<prof type="number">1</prof>
 					<stat type="string">wisdom</stat>
@@ -2001,31 +2324,41 @@
 				</id-00013>
 				<id-00014>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Deception</name>
+					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
 					<total type="number">2</total>
 				</id-00014>
 				<id-00015>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">0</total>
 				</id-00015>
 				<id-00016>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Stealth</name>
+					<prof type="number">0</prof>
 					<stat type="string">dexterity</stat>
 					<total type="number">0</total>
 				</id-00016>
 				<id-00017>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">History</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">0</total>
 				</id-00017>
 				<id-00018>
 					<holder name="Brad" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Animal Handling</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
 					<total type="number">1</total>
 				</id-00018>
@@ -2035,6 +2368,7 @@
 				<armor type="number">0</armor>
 				<base type="number">30</base>
 				<misc type="number">0</misc>
+				<special type="string">Riposte, Rally, Distracting Attack</special>
 				<temporary type="number">0</temporary>
 				<total type="number">30</total>
 			</speed>
@@ -2202,7 +2536,7 @@
 					<holder name="Tom" owner="true" />
 					<hddie type="dice">d6</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Wizard</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -2248,10 +2582,10 @@
 				<encumbered type="number">50</encumbered>
 				<encumberedheavy type="number">100</encumberedheavy>
 				<liftpushdrag type="number">300</liftpushdrag>
-				<load type="number">64</load>
+				<load type="number">37</load>
 				<max type="number">150</max>
 			</encumbrance>
-			<exp type="number">75</exp>
+			<exp type="number">301</exp>
 			<expneeded type="number">300</expneeded>
 			<featlist>
 				<holder name="Tom" owner="true" />
@@ -2343,7 +2677,7 @@
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">7</total>
+				<total type="number">11</total>
 				<wounds type="number">0</wounds>
 			</hp>
 			<initiative>
@@ -2514,7 +2848,7 @@
 					<name type="string">Giant</name>
 				</id-00006>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
 			<name type="string">Oliver Vane</name>
 			<perception type="number">11</perception>
 			<personalitytraits type="string">Think Sherlock Holmes</personalitytraits>
@@ -2523,10 +2857,12 @@
 				<id-00001>
 					<holder name="Tom" owner="true" />
 					<atkprof type="number">1</atkprof>
+					<atkstat type="string">intelligence</atkstat>
 					<castertype type="string">memorization</castertype>
 					<name type="string">Spells</name>
-					<prepared type="number">0</prepared>
+					<prepared type="number">5</prepared>
 					<saveprof type="number">1</saveprof>
+					<savestat type="string">intelligence</savestat>
 					<uses type="number">0</uses>
 				</id-00001>
 			</powergroup>
@@ -2534,7 +2870,7 @@
 				<holder name="Tom" owner="true" />
 				<spellslots1>
 					<holder name="Tom" owner="true" />
-					<max type="number">2</max>
+					<max type="number">3</max>
 				</spellslots1>
 				<spellslots2>
 					<holder name="Tom" owner="true" />
@@ -2569,7 +2905,7 @@
 					<max type="number">0</max>
 				</spellslots9>
 			</powermeta>
-			<powermode type="string">preparation</powermode>
+			<powermode type="string">combat</powermode>
 			<powers>
 				<holder name="Tom" owner="true" />
 				<id-00001>
@@ -2601,8 +2937,12 @@
 						<holder name="Tom" owner="true" />
 						<id-00001>
 							<holder name="Tom" owner="true" />
+							<atkbase type="string">ability</atkbase>
+							<atkprof type="number">1</atkprof>
+							<atkstat type="string">intelligence</atkstat>
 							<atktype type="string">ranged</atktype>
 							<order type="number">1</order>
+							<savedcprof type="number">1</savedcprof>
 							<type type="string">cast</type>
 						</id-00001>
 						<id-00002>
@@ -2693,7 +3033,7 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Charm Person</name>
-					<prepared type="number">0</prepared>
+					<prepared type="number">1</prepared>
 					<range type="string">30 feet</range>
 					<school type="string">Enchantment</school>
 					<source type="string">Bard, Cleric Trickery Domain, Druid, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
@@ -2819,18 +3159,51 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Thunderwave</name>
-					<prepared type="number">0</prepared>
+					<prepared type="number">1</prepared>
 					<range type="string">Self (15-foot cube)</range>
 					<school type="string">Evocation</school>
 					<source type="string">Bard, Cleric Tempest Domain, Druid, Eldritch Knight, Monk, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00008>
+				<id-00009>
+					<holder name="Tom" owner="true" />
+					<actions>
+						<holder name="Tom" owner="true" />
+						<id-00001>
+							<holder name="Tom" owner="true" />
+							<label type="string">Unconscious</label>
+							<order type="number">1</order>
+							<type type="string">effect</type>
+						</id-00001>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S, M (a pinch of fine sand, rose petals, or a cricket)</components>
+					<description type="formattedtext">
+						<p>This spell sends creatures into a magical slumber.</p>
+						<p>Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).</p>
+						<p>Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.</p>
+						<p>Undead and creatures immune to being charmed aren't affected by this spell.</p>
+						<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.</p>
+					</description>
+					<duration type="string">1 minute</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Sleep</name>
+					<prepared type="number">1</prepared>
+					<range type="string">90 feet</range>
+					<school type="string">Enchantment</school>
+					<source type="string">Bard, Eldritch Knight, Eldritch-Master-(Archfey), Sorcerer, Wizard, Arcane Trickster</source>
+				</id-00009>
 				<id-00010>
 					<holder name="Tom" owner="true" />
 					<actions>
 						<holder name="Tom" owner="true" />
 						<id-00001>
 							<holder name="Tom" owner="true" />
+							<atkbase type="string">ability</atkbase>
 							<atkprof type="number">1</atkprof>
+							<atkstat type="string">intelligence</atkstat>
 							<atktype type="string">ranged</atktype>
 							<order type="number">1</order>
 							<savedcbase type="string">ability</savedcbase>
@@ -2877,6 +3250,28 @@
 					<school type="string">Necromancy</school>
 					<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00010>
+				<id-00011>
+					<holder name="Tom" owner="true" />
+					<actions>
+						<holder name="Tom" owner="true" />
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S, M (holy water or powdered silver and iron, which the spell consumes)</components>
+					<description type="formattedtext">
+						<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p>
+						<p>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>
+					</description>
+					<duration type="string">Concentration up to 10 minutes</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Protection from Evil and Good</name>
+					<prepared type="number">0</prepared>
+					<range type="string">Touch</range>
+					<school type="string">Abjuration</school>
+					<source type="string">Cleric, Eldritch Knight, Paladin, Warlock, Wizard, Arcane Trickster</source>
+				</id-00011>
 			</powers>
 			<profbonus type="number">2</profbonus>
 			<proficiencylist>
@@ -3115,41 +3510,51 @@
 				<holder name="Tim" owner="true" />
 				<charisma>
 					<holder name="Tim" owner="true" />
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
 					<score type="number">11</score>
 				</charisma>
 				<constitution>
 					<holder name="Tim" owner="true" />
-					<score type="number">11</score>
+					<bonus type="number">1</bonus>
+					<save type="number">1</save>
+					<score type="number">12</score>
 				</constitution>
 				<dexterity>
+					<holder name="Tim" owner="true" />
+					<bonus type="number">3</bonus>
+					<save type="number">5</save>
+					<saveprof type="number">1</saveprof>
+					<score type="number">17</score>
+				</dexterity>
+				<intelligence>
 					<holder name="Tim" owner="true" />
 					<bonus type="number">2</bonus>
 					<save type="number">4</save>
 					<saveprof type="number">1</saveprof>
 					<score type="number">14</score>
-				</dexterity>
-				<intelligence>
-					<holder name="Tim" owner="true" />
-					<save type="number">2</save>
-					<saveprof type="number">1</saveprof>
-					<score type="number">10</score>
 				</intelligence>
 				<strength>
 					<holder name="Tim" owner="true" />
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
 					<score type="number">10</score>
 				</strength>
 				<wisdom>
 					<holder name="Tim" owner="true" />
-					<score type="number">10</score>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<score type="number">11</score>
 				</wisdom>
 			</abilities>
+			<age type="string">22</age>
 			<classes>
 				<holder name="Tim" owner="true" />
 				<id-00001>
 					<holder name="Tim" owner="true" />
 					<hddie type="dice">d8</hddie>
 					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<level type="number">2</level>
 					<name type="string">Rogue</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -3184,7 +3589,7 @@
 					<holder name="Tim" owner="true" />
 					<armor type="number">2</armor>
 					<prof type="number">1</prof>
-					<total type="number">14</total>
+					<total type="number">15</total>
 				</ac>
 			</defenses>
 			<encumbrance>
@@ -3215,7 +3620,7 @@
 					<holder name="Tim" owner="true" />
 					<level type="number">1</level>
 					<locked type="number">1</locked>
-					<name type="string">Sneak Attack</name>
+					<name type="string">Sneak Attack: Once per turn, deal an extra 1d6 damage to one creature you hit if you have advantage on the attack roll. No advantage needed if friendly is within 5' of target and doesn't have disadvantage.22</name>
 					<source type="string">Rogue</source>
 					<text type="formattedtext">
 						<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</p>
@@ -3227,21 +3632,27 @@
 					<holder name="Tim" owner="true" />
 					<level type="number">1</level>
 					<locked type="number">1</locked>
-					<name type="string">Expertise</name>
+					<name type="string">Expertise: Thieves Tools and Stealth.</name>
 					<source type="string">Rogue</source>
 					<text type="formattedtext">
 						<p>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</p>
 						<p>At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</p>
 					</text>
 				</id-00003>
+				<id-00004>
+					<holder name="Tim" owner="true" />
+					<name type="string">Cunning Action: </name>
+				</id-00004>
 			</featurelist>
+			<gender type="string">M</gender>
+			<height type="string">2'10&#34;</height>
 			<hp>
 				<holder name="Tim" owner="true" />
-				<total type="number">8</total>
+				<total type="number">14</total>
 			</hp>
 			<initiative>
 				<holder name="Tim" owner="true" />
-				<total type="number">2</total>
+				<total type="number">3</total>
 			</initiative>
 			<inventorylist>
 				<holder name="Tim" owner="true" />
@@ -3305,7 +3716,8 @@
 					<name type="string">Halfling</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">1</level>
+			<level type="number">2</level>
+			<name type="string">Eldon Merryspring</name>
 			<perception type="number">12</perception>
 			<powermeta>
 				<holder name="Tim" owner="true" />
@@ -3349,7 +3761,7 @@
 				</id-00001>
 				<id-00002>
 					<holder name="Tim" owner="true" />
-					<name type="string">Tool: Thieves' tools</name>
+					<name type="string">Tool: Thieves' tools, doubled.</name>
 				</id-00002>
 				<id-00003>
 					<holder name="Tim" owner="true" />
@@ -3374,28 +3786,29 @@
 				<id-00002>
 					<holder name="Tim" owner="true" />
 					<name type="string">Acrobatics</name>
-					<prof type="number">1</prof>
+					<prof type="number">0</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">4</total>
+					<total type="number">3</total>
 				</id-00002>
 				<id-00003>
 					<holder name="Tim" owner="true" />
 					<name type="string">Sleight of Hand</name>
 					<prof type="number">1</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">4</total>
+					<total type="number">5</total>
 				</id-00003>
 				<id-00004>
 					<holder name="Tim" owner="true" />
 					<name type="string">Stealth</name>
-					<prof type="number">1</prof>
+					<prof type="number">2</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">4</total>
+					<total type="number">7</total>
 				</id-00004>
 				<id-00005>
 					<holder name="Tim" owner="true" />
 					<name type="string">Arcana</name>
 					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
 				</id-00005>
 				<id-00006>
 					<holder name="Tim" owner="true" />
@@ -3406,6 +3819,7 @@
 					<holder name="Tim" owner="true" />
 					<name type="string">Nature</name>
 					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
 				</id-00007>
 				<id-00008>
 					<holder name="Tim" owner="true" />
@@ -3420,17 +3834,22 @@
 				<id-00010>
 					<holder name="Tim" owner="true" />
 					<name type="string">Performance</name>
+					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
+					<total type="number">0</total>
 				</id-00010>
 				<id-00011>
 					<holder name="Tim" owner="true" />
 					<name type="string">Religion</name>
 					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
 				</id-00011>
 				<id-00012>
 					<holder name="Tim" owner="true" />
 					<name type="string">Athletics</name>
+					<prof type="number">1</prof>
 					<stat type="string">strength</stat>
+					<total type="number">2</total>
 				</id-00012>
 				<id-00013>
 					<holder name="Tim" owner="true" />
@@ -3451,11 +3870,13 @@
 					<holder name="Tim" owner="true" />
 					<name type="string">Investigation</name>
 					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
 				</id-00016>
 				<id-00017>
 					<holder name="Tim" owner="true" />
 					<name type="string">History</name>
 					<stat type="string">intelligence</stat>
+					<total type="number">2</total>
 				</id-00017>
 				<id-00018>
 					<holder name="Tim" owner="true" />
@@ -3473,7 +3894,7 @@
 				<id-00001>
 					<holder name="Tim" owner="true" />
 					<locked type="number">1</locked>
-					<name type="string">Lucky</name>
+					<name type="string">Lucky: Roll 1 on attack, ability, of saving throw, can reroll and must keep new roll.</name>
 					<source type="string">Halfling</source>
 					<text type="formattedtext">
 						<p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
@@ -3482,7 +3903,7 @@
 				<id-00002>
 					<holder name="Tim" owner="true" />
 					<locked type="number">1</locked>
-					<name type="string">Halfling Nimbleness</name>
+					<name type="string">Halfling Nimbleness: Move through the space of any creature that is a size larger.</name>
 					<source type="string">Halfling</source>
 					<text type="formattedtext">
 						<p>You can move through the space of any creature that is of a size larger than yours.</p>
@@ -3491,58 +3912,33 @@
 				<id-00003>
 					<holder name="Tim" owner="true" />
 					<locked type="number">1</locked>
-					<name type="string">Brave</name>
+					<name type="string">Brave: Advantage on Saving Throws against frightened.</name>
 					<source type="string">Halfling</source>
 					<text type="formattedtext">
 						<p>You have advantage on saving throws against being frightened.</p>
 					</text>
 				</id-00003>
-				<id-00004>
-					<holder name="Tim" owner="true" />
-					<locked type="number">1</locked>
-					<name type="string">Stout Resilience</name>
-					<source type="string">Stout</source>
-					<text type="formattedtext">
-						<p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
-					</text>
-				</id-00004>
-				<id-00005>
-					<holder name="Tim" owner="true" />
-					<locked type="number">1</locked>
-					<name type="string">Lucky</name>
-					<source type="string">Halfling</source>
-					<text type="formattedtext">
-						<p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
-					</text>
-				</id-00005>
-				<id-00006>
-					<holder name="Tim" owner="true" />
-					<locked type="number">1</locked>
-					<name type="string">Halfling Nimbleness</name>
-					<source type="string">Halfling</source>
-					<text type="formattedtext">
-						<p>You can move through the space of any creature that is of a size larger than yours.</p>
-					</text>
-				</id-00006>
-				<id-00007>
-					<holder name="Tim" owner="true" />
-					<locked type="number">1</locked>
-					<name type="string">Brave</name>
-					<source type="string">Halfling</source>
-					<text type="formattedtext">
-						<p>You have advantage on saving throws against being frightened.</p>
-					</text>
-				</id-00007>
 				<id-00008>
 					<holder name="Tim" owner="true" />
 					<locked type="number">1</locked>
-					<name type="string">Naturally Stealthy</name>
+					<name type="string">Naturally Stealthy: Hide when obscured by a creature that is at least one size larger.</name>
 					<source type="string">Lightfoot</source>
 					<text type="formattedtext">
 						<p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>
 					</text>
 				</id-00008>
 			</traitlist>
+			<weapon>
+				<holder name="Tim" owner="true" />
+				<critdicebonus>
+					<holder name="Tim" owner="true" />
+				</critdicebonus>
+				<critrange>
+					<holder name="Tim" owner="true" />
+					<melee type="number">20</melee>
+					<ranged type="number">20</ranged>
+				</critrange>
+			</weapon>
 			<weaponlist>
 				<holder name="Tim" owner="true" />
 				<id-00001>
@@ -3591,6 +3987,7 @@
 					<type type="number">1</type>
 				</id-00002>
 			</weaponlist>
+			<weight type="string">40</weight>
 		</id-00005>
 		<id-00006>
 			<holder name="Matt" owner="true" />
@@ -4027,8 +4424,8 @@
 				<id-00001>
 					<holder name="Matt" owner="true" />
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">0</hdused>
-					<level type="number">1</level>
+					<hdused type="number">1</hdused>
+					<level type="number">2</level>
 					<name type="string">Druid</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
@@ -4040,7 +4437,7 @@
 				<holder name="Matt" owner="true" />
 				<slot1>
 					<holder name="Matt" owner="true" />
-					<amount type="number">75</amount>
+					<amount type="number">50</amount>
 					<name type="string">GP</name>
 				</slot1>
 				<slot2>
@@ -4084,6 +4481,8 @@
 				<load type="number">0</load>
 				<max type="number">120</max>
 			</encumbrance>
+			<exp type="number">301</exp>
+			<expneeded type="number">0</expneeded>
 			<featlist>
 				<holder name="Matt" owner="true" />
 			</featlist>
@@ -4141,9 +4540,11 @@
 			<gender type="string">Female</gender>
 			<hp>
 				<holder name="Matt" owner="true" />
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
-				<total type="number">8</total>
-				<wounds type="number">0</wounds>
+				<total type="number">17</total>
+				<wounds type="number">2</wounds>
 			</hp>
 			<ideals type="string">People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)</ideals>
 			<initiative>
@@ -4152,7 +4553,7 @@
 				<temporary type="number">0</temporary>
 				<total type="number">3</total>
 			</initiative>
-			<inspiration type="number">0</inspiration>
+			<inspiration type="number">1</inspiration>
 			<inventorylist>
 				<holder name="Matt" owner="true" />
 			</inventorylist>
@@ -4167,8 +4568,8 @@
 					<name type="string">Elvish</name>
 				</id-00002>
 			</languagelist>
-			<level type="number">1</level>
-			<name type="string">Ehnine</name>
+			<level type="number">2</level>
+			<name type="string">Ehnora</name>
 			<perception type="number">15</perception>
 			<personalitytraits type="string">I am incredibly slow to trust. Those who seem the fairest often have the most to hide.</personalitytraits>
 			<powergroup>
@@ -4189,6 +4590,7 @@
 				<spellslots1>
 					<holder name="Matt" owner="true" />
 					<max type="number">1</max>
+					<used type="number">0</used>
 				</spellslots1>
 				<spellslots2>
 					<holder name="Matt" owner="true" />
@@ -4223,9 +4625,63 @@
 					<max type="number">0</max>
 				</spellslots9>
 			</powermeta>
-			<powermode type="string">standard</powermode>
+			<powermode type="string">preparation</powermode>
 			<powers>
 				<holder name="Matt" owner="true" />
+				<id-00001>
+					<holder name="Matt" owner="true" />
+					<actions>
+						<holder name="Matt" owner="true" />
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>Whispering to the spirits of nature, you create one of the following effects within range:</p>
+						<list>
+							<li>You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</li>
+							<li>You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</li>
+							<li>You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a5-foot cube.</li>
+							<li>You instantly light or snuff out a candle, a torch, or a small campfire.</li>
+						</list>
+					</description>
+					<duration type="string">Instantaneous</duration>
+					<group type="string">Spells</group>
+					<level type="number">0</level>
+					<locked type="number">1</locked>
+					<name type="string">Druidcraft</name>
+					<prepared type="number">0</prepared>
+					<range type="string">30 feet</range>
+					<school type="string">Transmutation</school>
+					<source type="string">Druid</source>
+				</id-00001>
+				<id-00002>
+					<holder name="Matt" owner="true" />
+					<actions>
+						<holder name="Matt" owner="true" />
+						<id-00001>
+							<holder name="Matt" owner="true" />
+							<order type="number">1</order>
+							<savetype type="string">dexterity</savetype>
+							<type type="string">cast</type>
+						</id-00001>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V</components>
+					<description type="formattedtext">
+						<p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</p>
+					</description>
+					<duration type="string">Concentration, up to 1 minute</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Faerie Fire</name>
+					<prepared type="number">1</prepared>
+					<range type="string">60 feet</range>
+					<school type="string">Evocation</school>
+					<source type="string">Bard, Cleric Light Domain, Druid, Eldritch-Master-(Archfey)</source>
+				</id-00002>
 				<id-00004>
 					<holder name="Matt" owner="true" />
 					<actions>
@@ -4320,45 +4776,11 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Healing Word</name>
-					<prepared type="number">0</prepared>
+					<prepared type="number">1</prepared>
 					<range type="string">60 feet</range>
 					<school type="string">Evocation</school>
 					<source type="string">Bard, Cleric, Druid</source>
 				</id-00007>
-				<id-00008>
-					<holder name="Matt" owner="true" />
-					<actions>
-						<holder name="Matt" owner="true" />
-						<id-00001>
-							<holder name="Matt" owner="true" />
-							<order type="number">1</order>
-							<savetype type="string">wisdom</savetype>
-							<type type="string">cast</type>
-						</id-00001>
-						<id-00002>
-							<holder name="Matt" owner="true" />
-							<label type="string">Charmed</label>
-							<order type="number">2</order>
-							<type type="string">effect</type>
-						</id-00002>
-					</actions>
-					<cast type="number">0</cast>
-					<castingtime type="string">1 action</castingtime>
-					<components type="string">V, S</components>
-					<description type="formattedtext">
-						<p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p>
-						<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
-					</description>
-					<duration type="string">1 hour</duration>
-					<group type="string">Spells</group>
-					<level type="number">1</level>
-					<locked type="number">1</locked>
-					<name type="string">Charm Person</name>
-					<prepared type="number">0</prepared>
-					<range type="string">30 feet</range>
-					<school type="string">Enchantment</school>
-					<source type="string">Bard, Cleric Trickery Domain, Druid, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
-				</id-00008>
 				<id-00009>
 					<holder name="Matt" owner="true" />
 					<actions>
@@ -4397,7 +4819,7 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Thunderwave</name>
-					<prepared type="number">0</prepared>
+					<prepared type="number">1</prepared>
 					<range type="string">Self (15-foot cube)</range>
 					<school type="string">Evocation</school>
 					<source type="string">Bard, Cleric Tempest Domain, Druid, Eldritch Knight, Monk, Sorcerer, Wizard, Arcane Trickster</source>
@@ -4700,7 +5122,7 @@
 				</id-00002>
 				<id-00003>
 					<holder name="Matt" owner="true" />
-					<ammo type="number">0</ammo>
+					<ammo type="number">1</ammo>
 					<attackstat type="string">dexterity</attackstat>
 					<damagelist>
 						<holder name="Matt" owner="true" />
@@ -4721,11 +5143,200 @@
 				</id-00003>
 			</weaponlist>
 		</id-00007>
+		<id-00008>
+			<holder name="Tim" owner="true" />
+			<abilities>
+				<holder name="Tim" owner="true" />
+				<charisma>
+					<holder name="Tim" owner="true" />
+					<score type="number">10</score>
+				</charisma>
+				<constitution>
+					<holder name="Tim" owner="true" />
+					<score type="number">10</score>
+				</constitution>
+				<dexterity>
+					<holder name="Tim" owner="true" />
+					<score type="number">10</score>
+				</dexterity>
+				<intelligence>
+					<holder name="Tim" owner="true" />
+					<score type="number">10</score>
+				</intelligence>
+				<strength>
+					<holder name="Tim" owner="true" />
+					<score type="number">10</score>
+				</strength>
+				<wisdom>
+					<holder name="Tim" owner="true" />
+					<score type="number">10</score>
+				</wisdom>
+			</abilities>
+			<classes>
+				<holder name="Tim" owner="true" />
+				<id-00001>
+					<holder name="Tim" owner="true" />
+					<hddie type="dice"></hddie>
+					<hdused type="number">0</hdused>
+					<level type="number">3</level>
+					<name type="string">Cleric</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Tim" owner="true" />
+					<hddie type="dice"></hddie>
+					<hdused type="number">0</hdused>
+					<level type="number">0</level>
+				</id-00002>
+			</classes>
+			<defenses>
+				<holder name="Tim" owner="true" />
+				<ac>
+					<holder name="Tim" owner="true" />
+					<prof type="number">1</prof>
+					<total type="number">10</total>
+				</ac>
+			</defenses>
+			<hp>
+				<holder name="Tim" owner="true" />
+			</hp>
+			<initiative>
+				<holder name="Tim" owner="true" />
+			</initiative>
+			<level type="number">3</level>
+			<perception type="number">10</perception>
+			<powermeta>
+				<holder name="Tim" owner="true" />
+				<spellslots1>
+					<holder name="Tim" owner="true" />
+				</spellslots1>
+				<spellslots2>
+					<holder name="Tim" owner="true" />
+				</spellslots2>
+				<spellslots3>
+					<holder name="Tim" owner="true" />
+				</spellslots3>
+				<spellslots4>
+					<holder name="Tim" owner="true" />
+				</spellslots4>
+				<spellslots5>
+					<holder name="Tim" owner="true" />
+				</spellslots5>
+				<spellslots6>
+					<holder name="Tim" owner="true" />
+				</spellslots6>
+				<spellslots7>
+					<holder name="Tim" owner="true" />
+				</spellslots7>
+				<spellslots8>
+					<holder name="Tim" owner="true" />
+				</spellslots8>
+				<spellslots9>
+					<holder name="Tim" owner="true" />
+				</spellslots9>
+			</powermeta>
+			<powers>
+				<holder name="Tim" owner="true" />
+			</powers>
+			<profbonus type="number">2</profbonus>
+			<skilllist>
+				<holder name="Tim" owner="true" />
+				<id-00001>
+					<holder name="Tim" owner="true" />
+					<name type="string">Perception</name>
+					<stat type="string">wisdom</stat>
+				</id-00001>
+			</skilllist>
+			<speed>
+				<holder name="Tim" owner="true" />
+			</speed>
+			<weaponlist>
+				<holder name="Tim" owner="true" />
+			</weaponlist>
+		</id-00008>
 	</charsheet>
 	<combattracker>
 		<public />
 		<list>
 			<public />
+			<id-00001>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">12</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">13</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">16</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">16</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">16</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">17</hptotal>
+				<init type="number">3</init>
+				<initresult type="number">4</initresult>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00007</recordname>
+				</link>
+				<name type="string">Ehnora</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">35</speed>
+				<status type="string">Wounded</status>
+				<targets>
+					<public />
+				</targets>
+				<token type="token">portrait_id-00007_token</token>
+				<tokenrefid type="string">10</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</traits>
+				<wounds type="number">2</wounds>
+			</id-00001>
 			<id-00005>
 				<public />
 				<abilities>
@@ -4770,9 +5381,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">12</hptotal>
+				<hptotal type="number">18</hptotal>
 				<init type="number">0</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">12</initresult>
 				<link type="windowreference">
 					<class>charsheet</class>
 					<recordname>charsheet.id-00003</recordname>
@@ -4834,7 +5445,7 @@
 						<score type="number">12</score>
 					</wisdom>
 				</abilities>
-				<ac type="number">14</ac>
+				<ac type="number">15</ac>
 				<actions>
 					<public />
 					<id-00001>
@@ -4842,16 +5453,16 @@
 					</id-00001>
 				</actions>
 				<active type="number">0</active>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
+				<deathsavefail type="number">1</deathsavefail>
+				<deathsavesuccess type="number">2</deathsavesuccess>
 				<effects>
 					<public />
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">16</hptotal>
 				<init type="number">3</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">17</initresult>
 				<link type="windowreference">
 					<class>charsheet</class>
 					<recordname>charsheet.id-00002</recordname>
@@ -4882,7 +5493,7 @@
 						<public />
 					</id-00001>
 				</traits>
-				<wounds type="number">3</wounds>
+				<wounds type="number">4</wounds>
 			</id-00006>
 			<id-00007>
 				<public />
@@ -4928,9 +5539,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">7</hptotal>
+				<hptotal type="number">11</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">15</initresult>
 				<link type="windowreference">
 					<class>charsheet</class>
 					<recordname>charsheet.id-00004</recordname>
@@ -4963,8 +5574,876 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00007>
+			<id-00018>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<modifier type="string">+2</modifier>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(leather armor, shield)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [M] [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortbow</name>
+						<value type="string">Shortbow [M] [RNG: 5ft] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft./120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Javelin</name>
+						<value type="string">Javelin [M] [ATK: +3] [DMG: 1d6+2 piercing]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6)</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">8</initresult>
+				<languages type="string">Common, Goblin</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Goblin 1</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth +6</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Goblins</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver">Goblin</link>
+					</linklist>
+					<p>Goblins are black-hearted, gather in overwhelming numbers, and crave power, which they abuse.</p>
+				</text>
+				<token type="token">tokens/goblin.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">31</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (goblinoid)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">50</xp>
+			</id-00018>
+			<id-00019>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<modifier type="string">+2</modifier>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(leather armor, shield)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [M] [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortbow</name>
+						<value type="string">Shortbow [M] [RNG: 5ft] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft./120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Javelin</name>
+						<value type="string">Javelin [M] [ATK: +3] [DMG: 1d6+2 piercing]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6)</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">8</initresult>
+				<languages type="string">Common, Goblin</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Goblin 2</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth +6</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Goblins</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver">Goblin</link>
+					</linklist>
+					<p>Goblins are black-hearted, gather in overwhelming numbers, and crave power, which they abuse.</p>
+				</text>
+				<token type="token">tokens/goblin.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">32</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (goblinoid)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">50</xp>
+			</id-00019>
+			<id-00020>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<modifier type="string">+2</modifier>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(leather armor, shield)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [M] [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortbow</name>
+						<value type="string">Shortbow [M] [RNG: 5ft] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft./120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Javelin</name>
+						<value type="string">Javelin [M] [ATK: +3] [DMG: 1d6+2 piercing]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6)</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">8</initresult>
+				<languages type="string">Common, Goblin</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Goblin 3</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth +6</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Goblins</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver">Goblin</link>
+					</linklist>
+					<p>Goblins are black-hearted, gather in overwhelming numbers, and crave power, which they abuse.</p>
+				</text>
+				<token type="token">tokens/goblin.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">33</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (goblinoid)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">50</xp>
+			</id-00020>
+			<id-00021>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<modifier type="string">+2</modifier>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(leather armor, shield)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [M] [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortbow</name>
+						<value type="string">Shortbow [M] [RNG: 5ft] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft./120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Javelin</name>
+						<value type="string">Javelin [M] [ATK: +3] [DMG: 1d6+2 piercing]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6)</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">8</initresult>
+				<languages type="string">Common, Goblin</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Goblin 4</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth +6</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Goblins</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver">Goblin</link>
+					</linklist>
+					<p>Goblins are black-hearted, gather in overwhelming numbers, and crave power, which they abuse.</p>
+				</text>
+				<token type="token">tokens/goblin.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">34</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (goblinoid)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">50</xp>
+			</id-00021>
+			<id-00022>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<modifier type="string">+2</modifier>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">0</bonus>
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-1</bonus>
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(leather armor, shield)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [M] [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, reach 5ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortbow</name>
+						<value type="string">Shortbow [M] [RNG: 5ft] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft./120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Javelin</name>
+						<value type="string">Javelin [M] [ATK: +3] [DMG: 1d6+2 piercing]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6)</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">8</initresult>
+				<languages type="string">Common, Goblin</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Goblin 5</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth +6</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Goblins</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver">Goblin</link>
+					</linklist>
+					<p>Goblins are black-hearted, gather in overwhelming numbers, and crave power, which they abuse.</p>
+				</text>
+				<token type="token">tokens/goblin.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">35</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (goblinoid)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">50</xp>
+			</id-00022>
+			<id-00023>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<public />
+						<modifier type="string">+1</modifier>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<modifier type="string">+1</modifier>
+						<score type="number">13</score>
+					</strength>
+					<wisdom>
+						<public />
+						<modifier type="string">0</modifier>
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">16</ac>
+				<actext type="string">(chain mail)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Sildar makes two melee attacks.</desc>
+						<name type="string">Multiattack</name>
+						<value type="string">Multiattack</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage.</desc>
+						<name type="string">Longsword</name>
+						<value type="string">Longsword [M] [ATK: +3] [DMG: 1d8+1 slashing]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +2 to hit, range 100 ft./400 ft., one target. Hit: 5 (1d10) piercing damage.</desc>
+						<name type="string">Heavy Crossbow</name>
+						<value type="string">Heavy crossbow [R] [RNG: 100/400] [ATK: +2] [DMG: 1d10 piercing]</value>
+					</id-00003>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral good</alignment>
+				<cr type="string">1</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<hd type="string">(5d8 + 5)</hd>
+				<hp type="number">27</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">27</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">6</initresult>
+				<languages type="string">Common</languages>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Sildar Hallwinter</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">When an attacker hits Sildar with a melee attack and Sildar can see the attacker, he can roll 1d6 and add the number rolled to his AC against the triggering attack, provided that he's wielding a melee weapon.</desc>
+						<name type="string">Parry</name>
+						<value type="string">Parry</value>
+					</id-00001>
+				</reactions>
+				<savingthrows type="string">Str +3, Con +3</savingthrows>
+				<senses type="string">passiver Perception 12</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Perception +2</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<p>Sildar Hallwinter is a retired soldier and sellsword who hails from the city of Neverwinter. He is a loyal member of the Lords' Alliance, a political organization that unites thevarious free cities and towns of the North.</p>
+				</text>
+				<token type="token">tokens/S.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">37</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">0.5</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (human)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">200</xp>
+			</id-00023>
+			<id-00024>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<modifier type="string">+2</modifier>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<modifier type="string">0</modifier>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</strength>
+					<wisdom>
+						<public />
+						<modifier type="string">-1</modifier>
+						<score type="number">8</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actext type="string">(leather armor, shield)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.</desc>
+						<name type="string">Scimitar</name>
+						<value type="string">Scimitar [M] [ATK: +4] [DMG: 1d6+2 slashing]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</desc>
+						<name type="string">Shortbow</name>
+						<value type="string">Shortbow [R] [ATK: +4] [DMG: 1d6+2 piercing]</value>
+					</id-00002>
+				</actions>
+				<active type="number">1</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">1/4</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(2d6)</hd>
+				<hp type="number">7</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">7</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">22</initresult>
+				<languages type="string">Common, Goblin</languages>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Yemeek</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+					<id-00001>
+						<public />
+					</id-00001>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 9</senses>
+				<size type="string">Small</size>
+				<skills type="string">Stealth +6</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft.</speed>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<h>Goblins</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver">Goblin</link>
+					</linklist>
+					<p>Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.</p>
+				</text>
+				<token type="token">tokens/yemeek.png@DD Lost Mine of Phandelver</token>
+				<tokenrefid type="string">36</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawhideout_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The goblin can take the Disengage or Hide action as a bonus action on each of its turns.</desc>
+						<name type="string">Nimble Escape</name>
+						<value type="string">Nimble escape</value>
+					</id-00001>
+				</traits>
+				<type type="string">humanoid (goblinoid)</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">50</xp>
+			</id-00024>
 		</list>
-		<round type="number">1</round>
+		<round type="number">12</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -5016,6 +6495,31 @@
 		<public />
 	</modifiers>
 	<notes>
+		<id-00001>
+			<holder name="Tom" owner="true" />
+			<name type="string">5/3/2015 - Are your eyes failing you?</name>
+			<text type="formattedtext">
+				<p>We were commissioned by a dwarf to Phandalin to guard a shipment of supplies, Gundren Rockseeker.</p>
+				<p>Ambushed by goblins. Looks like Gundren was kidnapped along with his corider.</p>
+				<p>We track the goblins that moved them back to a possible lair (a cave) near the southern edge of the Neverwinter Wood.</p>
+			</text>
+		</id-00001>
+		<id-00002>
+			<holder name="Tom" owner="true" />
+			<name type="string">5/10/2015 - Goblins can be pretty stupid</name>
+			<text type="formattedtext">
+				<p>We meet Ehnora, there are two goblins in the cave. But there are more. The leader of the goblins is a bugbear most likely.</p>
+				<p>We ambush goblin sentries quickly and quietly. We proceed into the goblin lair.</p>
+				<p>The goblins find us out when Weyland triggers a sliding stone trap. They flood the main passage. We go up a chimney from a wolf den . . . straight into the lair of the goblins. Klarg, the bugbear and his pet, Ripper, a wolf are also there.</p>
+				<p>Tough fight, we get hemmed in next to a chimney that we ascend. We win the fight and the last goblin surrenders (Tungl) and tells us the Dwarf was taken to Cragmaw Castle. According to Ehnora, our new druid, this is a castle held by the goblins 20 miles to the Northeast.</p>
+				<p>The goods here are marked with a Blue Lion symbol, the sign of the Lion Shield Coster. Recently moving into the Neverwinter area.</p>
+				<p>The goblin says It's been two nights since Gundren was taken. Was ordered to be moved along with a &#34;map&#34;. &#34;Yemeek&#34; (second in command) has the human according to the Goblin.</p>
+				<p>Find a treasure chest with two healing potions, a frog statuette and some coins (20 gp).</p>
+				<p>We find Silgar Hallwinter with Yemeek and negotiate his release.</p>
+				<p>Silgar tells us that the Dwarf was to be brought to Blackspider. What is that?</p>
+				<p>Gundren is one of the Rockseeker brothers. They found Wave Echo Cave. More than 500 years ago was a pact between Gnomes and Dwarves. It was for a mine. Human wizards buried the cave when it was overrun by orcs.</p>
+			</text>
+		</id-00002>
 	</notes>
 	<npc>
 		<category name="" mergeid="" baseicon="0" decalicon="0">
@@ -5027,6 +6531,7 @@
 	</npc>
 	<options>
 		<public />
+		<HRST type="string">off</HRST>
 		<RING type="string">on</RING>
 		<SHPH type="string">pc</SHPH>
 		<SHPW type="string">on</SHPW>
@@ -5041,24 +6546,68 @@
 			<public />
 			<id-00001>
 				<public />
-				<amount type="number">15</amount>
-				<carriedby type="string">Weyland Eromere [15]</carriedby>
+				<amount type="number">90</amount>
+				<carriedby type="string">Ehnine [75], Weyland Eromere [15]</carriedby>
 				<name type="string">GP</name>
 			</id-00001>
 		</coinlist>
 		<encounters>
 			<public />
-			<id-00001>
+			<id-00002>
 				<public />
-				<cr type="string">1</cr>
-				<name type="string">P1-03 Goblin Ambush</name>
+				<cr type="string">1/2</cr>
+				<name type="string">P1-04.02. Goblin Blind</name>
 				<shortcut type="windowreference">
 					<class>battle</class>
-					<recordname>battle.bat_p1_03goblinambush@DD Lost Mine of Phandelver</recordname>
+					<recordname>battle.bat_p1_04_02_goblinblind@DD Lost Mine of Phandelver</recordname>
 				</shortcut>
-				<xp type="number">200</xp>
+				<xp type="number">100</xp>
 				<xpawarded type="number">1</xpawarded>
-			</id-00001>
+			</id-00002>
+			<id-00003>
+				<public />
+				<cr type="string">1</cr>
+				<name type="string">P1-04.03. Kennel</name>
+				<shortcut type="windowreference">
+					<class>battle</class>
+					<recordname>battle.bat_p1_04_03_kennel@DD Lost Mine of Phandelver</recordname>
+				</shortcut>
+				<xp type="number">150</xp>
+				<xpawarded type="number">1</xpawarded>
+			</id-00003>
+			<id-00004>
+				<public />
+				<cr type="string">1/4</cr>
+				<name type="string">P1-04.05. Overpass</name>
+				<shortcut type="windowreference">
+					<class>battle</class>
+					<recordname>battle.bat_p1_04_05_overpass@DD Lost Mine of Phandelver</recordname>
+				</shortcut>
+				<xp type="number">50</xp>
+				<xpawarded type="number">1</xpawarded>
+			</id-00004>
+			<id-00005>
+				<public />
+				<cr type="string">2</cr>
+				<name type="string">P1-04.08. Klarg's Cave</name>
+				<shortcut type="windowreference">
+					<class>battle</class>
+					<recordname>battle.bat_p1_04_08_klarg_scave@DD Lost Mine of Phandelver</recordname>
+				</shortcut>
+				<xp type="number">350</xp>
+				<xpawarded type="number">1</xpawarded>
+			</id-00005>
+			<id-00006>
+				<public />
+				<cr type="string">3</cr>
+				<name type="string">P1-04.06. Goblin Den</name>
+				<shortcut type="windowreference">
+					<class>battle</class>
+					<recordname>battle.bat_p1_04_06_goblinden@DD Lost Mine of Phandelver</recordname>
+				</shortcut>
+				<xp type="number">250</xp>
+				<xpawarded type="number">1</xpawarded>
+			</id-00006>
 		</encounters>
 		<hiderollresults type="number">0</hiderollresults>
 		<image type="image">
@@ -5296,17 +6845,17 @@
 				<ac type="number">12</ac>
 				<chabonus type="number">0</chabonus>
 				<charisma type="number">10</charisma>
-				<classlevel type="string">Wizard 1</classlevel>
+				<classlevel type="string">Wizard 2</classlevel>
 				<conbonus type="number">1</conbonus>
 				<constitution type="number">12</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">14</dexterity>
-				<exp type="number">75</exp>
+				<exp type="number">301</exp>
 				<expneeded type="number">300</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">0</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">7</hptotal>
+				<hptotal type="number">11</hptotal>
 				<intbonus type="number">3</intbonus>
 				<intelligence type="number">16</intelligence>
 				<link type="windowreference">
@@ -5332,17 +6881,17 @@
 				<ac type="number">19</ac>
 				<chabonus type="number">2</chabonus>
 				<charisma type="number">14</charisma>
-				<classlevel type="string">Fighter 1</classlevel>
+				<classlevel type="string">Fighter 2</classlevel>
 				<conbonus type="number">2</conbonus>
 				<constitution type="number">15</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">10</dexterity>
-				<exp type="number">75</exp>
+				<exp type="number">301</exp>
 				<expneeded type="number">0</expneeded>
-				<hd type="number">1</hd>
-				<hdused type="number">0</hdused>
+				<hd type="number">2</hd>
+				<hdused type="number">1</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">12</hptotal>
+				<hptotal type="number">18</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">10</intelligence>
 				<link type="windowreference">
@@ -5365,20 +6914,20 @@
 			</id-00002>
 			<id-00003>
 				<public />
-				<ac type="number">14</ac>
+				<ac type="number">15</ac>
 				<chabonus type="number">2</chabonus>
 				<charisma type="number">14</charisma>
-				<classlevel type="string">Rogue 1</classlevel>
+				<classlevel type="string">Fighter 1 / Rogue 1</classlevel>
 				<conbonus type="number">1</conbonus>
 				<constitution type="number">12</constitution>
 				<dexbonus type="number">3</dexbonus>
 				<dexterity type="number">16</dexterity>
-				<exp type="number">75</exp>
+				<exp type="number">301</exp>
 				<expneeded type="number">300</expneeded>
-				<hd type="number">1</hd>
+				<hd type="number">2</hd>
 				<hdused type="number">1</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">9</hptotal>
+				<hptotal type="number">16</hptotal>
 				<intbonus type="number">0</intbonus>
 				<intelligence type="number">10</intelligence>
 				<link type="windowreference">
@@ -5397,8 +6946,43 @@
 				<watchid type="number">0</watchid>
 				<wisbonus type="number">1</wisbonus>
 				<wisdom type="number">12</wisdom>
-				<wounds type="number">3</wounds>
+				<wounds type="number">4</wounds>
 			</id-00003>
+			<id-00004>
+				<public />
+				<ac type="number">16</ac>
+				<chabonus type="number">1</chabonus>
+				<charisma type="number">12</charisma>
+				<classlevel type="string">Druid 2</classlevel>
+				<conbonus type="number">1</conbonus>
+				<constitution type="number">13</constitution>
+				<dexbonus type="number">3</dexbonus>
+				<dexterity type="number">16</dexterity>
+				<exp type="number">301</exp>
+				<expneeded type="number">0</expneeded>
+				<hd type="number">2</hd>
+				<hdused type="number">1</hdused>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">17</hptotal>
+				<intbonus type="number">0</intbonus>
+				<intelligence type="number">10</intelligence>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00007</recordname>
+				</link>
+				<name type="string">Ehnora</name>
+				<perception type="number">15</perception>
+				<race type="string">Wood Elf</race>
+				<senses type="string">Darkvision 60</senses>
+				<strbonus type="number">-1</strbonus>
+				<strength type="number">8</strength>
+				<token type="token">portrait_id-00007_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<watchid type="number">0</watchid>
+				<wisbonus type="number">3</wisbonus>
+				<wisdom type="number">16</wisdom>
+				<wounds type="number">2</wounds>
+			</id-00004>
 		</partyinformation>
 		<quests>
 			<public />
