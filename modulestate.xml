@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<modulestate version="3.0">
+<modulestate version="3.1">
 	<module name="DD Basic Rules - DM">
 		<loaded />
-		<disallow />
 	</module>
 	<module name="DD Basic Rules - Player">
 		<loaded />
 		<allow />
 	</module>
-	<module name="DD Lost Mine of Phandelver">
+	<module name="DD Hoard of the Dragon Queen">
 		<loaded />
 	</module>
 	<module name="DD MM Monster Manual">

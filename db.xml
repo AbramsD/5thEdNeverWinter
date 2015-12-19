@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<root version="3.1" release="6|CoreRPG:3">
+<root version="3.1" release="7|CoreRPG:3">
 	<battle>
 		<category name="" mergeid="" baseicon="0" decalicon="0">
 			<id-00001>
@@ -207,13 +207,21 @@
 				</npclist>
 			</id-00003>
 		</category>
-		<category name="LMoP - Part 1" mergeid="" baseicon="2" decalicon="1">
+		<category name="HotDQ - Episode 1" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="LMoP - Part 2" mergeid="" baseicon="2" decalicon="1">
+		<category name="HotDQ - Episode 2" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="LMoP - Part 3" mergeid="" baseicon="2" decalicon="1">
+		<category name="HotDQ - Episode 3" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="LMoP - Part 4" mergeid="" baseicon="2" decalicon="1">
+		<category name="HotDQ - Episode 4" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="HotDQ - Episode 5" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="HotDQ - Episode 6" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="HotDQ - Episode 7" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="HotDQ - Episode 8" mergeid="" baseicon="2" decalicon="1">
 		</category>
 	</battle>
 	<calendar>
@@ -268,6 +276,8 @@
 					<score type="number">14</score>
 				</wisdom>
 			</abilities>
+			<adventurelist>
+			</adventurelist>
 			<age type="string">Unknown</age>
 			<alignment type="string">Chaotic Good</alignment>
 			<backgroundlink type="windowreference">
@@ -635,6 +645,33 @@
 				</id-00001>
 			</powergroup>
 			<powermeta>
+				<pactmagicslots1>
+					<max type="number">0</max>
+				</pactmagicslots1>
+				<pactmagicslots2>
+					<max type="number">0</max>
+				</pactmagicslots2>
+				<pactmagicslots3>
+					<max type="number">0</max>
+				</pactmagicslots3>
+				<pactmagicslots4>
+					<max type="number">0</max>
+				</pactmagicslots4>
+				<pactmagicslots5>
+					<max type="number">0</max>
+				</pactmagicslots5>
+				<pactmagicslots6>
+					<max type="number">0</max>
+				</pactmagicslots6>
+				<pactmagicslots7>
+					<max type="number">0</max>
+				</pactmagicslots7>
+				<pactmagicslots8>
+					<max type="number">0</max>
+				</pactmagicslots8>
+				<pactmagicslots9>
+					<max type="number">0</max>
+				</pactmagicslots9>
 				<spellslots1>
 					<max type="number">2</max>
 					<used type="number">0</used>
@@ -664,7 +701,6 @@
 					<max type="number">0</max>
 				</spellslots9>
 			</powermeta>
-			<powermode type="string">combat</powermode>
 			<powers>
 				<id-00001>
 					<actions>
@@ -684,6 +720,7 @@
 					<name type="string">Mage Hand</name>
 					<prepared type="number">0</prepared>
 					<range type="string">30 feet</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Conjuration</school>
 					<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
 				</id-00001>
@@ -703,6 +740,7 @@
 					<name type="string">Blade Ward</name>
 					<prepared type="number">0</prepared>
 					<range type="string">Self</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Abjuration</school>
 					<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
 				</id-00002>
@@ -728,6 +766,7 @@
 					<name type="string">Light</name>
 					<prepared type="number">0</prepared>
 					<range type="string">Touch</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Evocation</school>
 					<source type="string">Bard, Cleric, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00003>
@@ -766,6 +805,7 @@
 					<name type="string">Mage Armor</name>
 					<prepared type="number">1</prepared>
 					<range type="string">Touch</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Abjuration</school>
 					<source type="string">Eldritch Knight, Eldritch Invocations, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00005>
@@ -788,6 +828,7 @@
 					<name type="string">Alarm</name>
 					<prepared type="number">0</prepared>
 					<range type="string">30 feet</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Abjuration</school>
 					<source type="string">Eldritch Knight, Ranger, Wizard, Arcane Trickster</source>
 				</id-00006>
@@ -808,6 +849,7 @@
 					<name type="string">Expeditious Retreat</name>
 					<prepared type="number">1</prepared>
 					<range type="string">Self</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Transmutation</school>
 					<source type="string">Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
 				</id-00009>
@@ -847,6 +889,7 @@
 					<name type="string">Protection from Evil and Good</name>
 					<prepared type="number">1</prepared>
 					<range type="string">Touch</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Abjuration</school>
 					<source type="string">Cleric, Eldritch Knight, Paladin, Warlock, Wizard, Arcane Trickster</source>
 				</id-00011>
@@ -1208,12 +1251,12 @@
 				<holder name="Sam" owner="true" />
 				<slot1>
 					<holder name="Sam" owner="true" />
-					<amount type="number">219</amount>
+					<amount type="number">565</amount>
 					<name type="string">gp</name>
 				</slot1>
 				<slot2>
 					<holder name="Sam" owner="true" />
-					<amount type="number">9</amount>
+					<amount type="number">18</amount>
 					<name type="string">sp</name>
 				</slot2>
 				<slot3>
@@ -1221,6 +1264,8 @@
 				</slot3>
 				<slot4>
 					<holder name="Sam" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">cp</name>
 				</slot4>
 				<slot5>
 					<holder name="Sam" owner="true" />
@@ -1233,13 +1278,15 @@
 				<holder name="Sam" owner="true" />
 				<ac>
 					<holder name="Sam" owner="true" />
-					<armor type="number">2</armor>
+					<armor type="number">5</armor>
+					<dexbonus type="string">max2</dexbonus>
 					<misc type="number">1</misc>
 					<prof type="number">1</prof>
 					<shield type="number">0</shield>
 					<temporary type="number">0</temporary>
-					<total type="number">16</total>
+					<total type="number">18</total>
 				</ac>
+				<special type="string">Advantage on saves vs breath weapons from creatures of type Dragon (armor)</special>
 			</defenses>
 			<deity type="string">Tymora</deity>
 			<encumbrance>
@@ -1247,11 +1294,11 @@
 				<encumbered type="number">55</encumbered>
 				<encumberedheavy type="number">110</encumberedheavy>
 				<liftpushdrag type="number">330</liftpushdrag>
-				<load type="number">96.25</load>
+				<load type="number">116.25</load>
 				<max type="number">165</max>
 			</encumbrance>
-			<exp type="number">2710</exp>
-			<expneeded type="number">2700</expneeded>
+			<exp type="number">4100</exp>
+			<expneeded type="number">6500</expneeded>
 			<featlist>
 				<holder name="Sam" owner="true" />
 				<id-00001>
@@ -1369,7 +1416,7 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">30</total>
-				<wounds type="number">0</wounds>
+				<wounds type="number">6</wounds>
 			</hp>
 			<ideals type="string">Aspiration: I work hard to be the best at my craft.</ideals>
 			<initiative>
@@ -1378,7 +1425,7 @@
 				<temporary type="number">0</temporary>
 				<total type="number">3</total>
 			</initiative>
-			<inspiration type="number">0</inspiration>
+			<inspiration type="number">1</inspiration>
 			<inventorylist>
 				<holder name="Sam" owner="true" />
 				<id-00001>
@@ -1416,6 +1463,28 @@
 					<isidentified type="number">1</isidentified>
 					<name type="string">Horse and Tack</name>
 				</id-00004>
+				<id-00005>
+					<holder name="Sam" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">2</count>
+					<isidentified type="number">1</isidentified>
+					<name type="string">Goodberries</name>
+				</id-00005>
+				<id-00006>
+					<holder name="Sam" owner="true" />
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This +1 breastplate has a gold dragon motif worked into its design. Created for a human hero of Neverwinter named Tergon, it grants its wearer advantage on saving throws against the breath weapons of creatures that have the dragon type.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Dragonguard (Armor)</name>
+					<type type="string">Armor</type>
+					<weight type="number">20</weight>
+				</id-00006>
 				<id-00007>
 					<holder name="Sam" owner="true" />
 					<carried type="number">1</carried>
@@ -1731,6 +1800,10 @@
 			<personalitytraits type="string">I'm a born gambler, and can't resist taking a risk for a potential payoff.\nIf someone is in trouble, especially the poor, I'm always ready to lend help.</personalitytraits>
 			<powergroup>
 				<holder name="Sam" owner="true" />
+				<id-00001>
+					<holder name="Sam" owner="true" />
+					<name type="string">Extra</name>
+				</id-00001>
 				<id-00002>
 					<holder name="Sam" owner="true" />
 					<name type="string">Feat</name>
@@ -1739,6 +1812,10 @@
 					<holder name="Sam" owner="true" />
 					<name type="string">Abilities</name>
 				</id-00003>
+				<id-00004>
+					<holder name="Sam" owner="true" />
+					<name type="string">xtra</name>
+				</id-00004>
 			</powergroup>
 			<powermeta>
 				<holder name="Sam" owner="true" />
@@ -1788,38 +1865,26 @@
 					<used type="number">0</used>
 				</spellslots9>
 			</powermeta>
+			<powermode type="string">standard</powermode>
 			<powers>
 				<holder name="Sam" owner="true" />
-				<id-00001>
+				<id-00003>
 					<holder name="Sam" owner="true" />
 					<actions>
 						<holder name="Sam" owner="true" />
-						<id-00001>
-							<holder name="Sam" owner="true" />
-							<apply type="string">roll</apply>
-							<label type="string">Sneak Attack; DMG:1d6</label>
-							<order type="number">1</order>
-							<targeting type="string">self</targeting>
-							<type type="string">effect</type>
-						</id-00001>
 					</actions>
 					<cast type="number">0</cast>
+					<description type="formattedtext">
+						<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>
+						<p>Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>
+					</description>
 					<group type="string">Abilities</group>
-					<level type="number">0</level>
-					<name type="string">Sneak Attack</name>
-					<prepared type="number">0</prepared>
-				</id-00001>
-				<id-00002>
-					<holder name="Sam" owner="true" />
-					<actions>
-						<holder name="Sam" owner="true" />
-					</actions>
-					<cast type="number">0</cast>
-					<group type="string">Feat</group>
-					<name type="string">Lucky</name>
-					<prepared type="number">3</prepared>
-				</id-00002>
-				<id-00004>
+					<locked type="number">1</locked>
+					<name type="string">Action Surge</name>
+					<prepared type="number">1</prepared>
+					<usesperiod type="string">enc</usesperiod>
+				</id-00003>
+				<id-00005>
 					<holder name="Sam" owner="true" />
 					<actions>
 						<holder name="Sam" owner="true" />
@@ -1829,8 +1894,8 @@
 								<holder name="Sam" owner="true" />
 								<id-00001>
 									<holder name="Sam" owner="true" />
-									<bonus type="number">1</bonus>
 									<dice type="dice">d10</dice>
+									<stat type="string">fighter</stat>
 								</id-00001>
 							</heallist>
 							<healtargeting type="string">self</healtargeting>
@@ -1839,21 +1904,57 @@
 						</id-00001>
 					</actions>
 					<cast type="number">0</cast>
+					<description type="formattedtext">
+						<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>
+						<p>Once you use this feature, you must finish a short or long rest before you can use it again.</p>
+					</description>
 					<group type="string">Abilities</group>
+					<locked type="number">1</locked>
 					<name type="string">Second Wind</name>
 					<prepared type="number">1</prepared>
 					<usesperiod type="string">enc</usesperiod>
-				</id-00004>
-				<id-00005>
+				</id-00005>
+				<id-00007>
+					<holder name="Sam" owner="true" />
+					<actions>
+						<holder name="Sam" owner="true" />
+						<id-00001>
+							<holder name="Sam" owner="true" />
+							<apply type="string">roll</apply>
+							<durmod type="number">0</durmod>
+							<label type="string">Sneak Attack; DMG:1d6</label>
+							<order type="number">1</order>
+							<targeting type="string">self</targeting>
+							<type type="string">effect</type>
+						</id-00001>
+					</actions>
+					<cast type="number">0</cast>
+					<description type="formattedtext">
+						<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</p>
+						<p>You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</p>
+						<p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</p>
+					</description>
+					<group type="string">Abilities</group>
+					<locked type="number">1</locked>
+					<name type="string">Sneak Attack</name>
+					<prepared type="number">0</prepared>
+				</id-00007>
+				<id-00008>
 					<holder name="Sam" owner="true" />
 					<actions>
 						<holder name="Sam" owner="true" />
 					</actions>
-					<group type="string">Abilities</group>
-					<name type="string">Action Surge</name>
-					<prepared type="number">1</prepared>
-					<usesperiod type="string">enc</usesperiod>
-				</id-00005>
+					<cast type="number">2</cast>
+					<description type="formattedtext">
+						<p>You have inexplicable luck that seems to kick in at just the right moment.</p>
+						<p>You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.</p>
+						<p>You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker's roll or yours. If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled. You regain your expended luck points when you finish a long rest.</p>
+					</description>
+					<group type="string">Feat</group>
+					<locked type="number">1</locked>
+					<name type="string">Lucky</name>
+					<prepared type="number">3</prepared>
+				</id-00008>
 			</powers>
 			<profbonus type="number">2</profbonus>
 			<proficiencylist>
@@ -2254,7 +2355,7 @@
 					<holder name="Brad" owner="true" />
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d10</hddie>
-					<hdused type="number">1</hdused>
+					<hdused type="number">4</hdused>
 					<level type="number">4</level>
 					<name type="string">Fighter</name>
 					<shortcut type="windowreference">
@@ -2267,7 +2368,7 @@
 				<holder name="Brad" owner="true" />
 				<slot1>
 					<holder name="Brad" owner="true" />
-					<amount type="number">251</amount>
+					<amount type="number">457</amount>
 					<name type="string">Gold</name>
 				</slot1>
 				<slot2>
@@ -2310,7 +2411,7 @@
 				<load type="number">114</load>
 				<max type="number">255</max>
 			</encumbrance>
-			<exp type="number">2710</exp>
+			<exp type="number">4100</exp>
 			<expneeded type="number">6500</expneeded>
 			<featlist>
 				<holder name="Brad" owner="true" />
@@ -2383,7 +2484,7 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">36</total>
-				<wounds type="number">0</wounds>
+				<wounds type="number">1</wounds>
 			</hp>
 			<initiative>
 				<holder name="Brad" owner="true" />
@@ -2391,7 +2492,7 @@
 				<temporary type="number">0</temporary>
 				<total type="number">0</total>
 			</initiative>
-			<inspiration type="number">0</inspiration>
+			<inspiration type="number">1</inspiration>
 			<inventorylist>
 				<holder name="Brad" owner="true" />
 				<id-00001>
@@ -2492,7 +2593,7 @@
 					<holder name="Brad" owner="true" />
 					<carried type="number">1</carried>
 					<cost type="string">1 cp</cost>
-					<count type="number">1</count>
+					<count type="number">0</count>
 					<description type="formattedtext">
 						<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>
 					</description>
@@ -2883,7 +2984,7 @@
 							<bonus type="number">1</bonus>
 							<dice type="dice">d8</dice>
 							<stat type="string">base</stat>
-							<type type="string">slashing</type>
+							<type type="string">magic, slashing</type>
 						</id-00001>
 					</damagelist>
 					<maxammo type="number">0</maxammo>
@@ -2990,6 +3091,24 @@
 					</shortcut>
 					<type type="number">1</type>
 				</id-00005>
+				<id-00006>
+					<holder name="Brad" owner="true" />
+					<attackbonus type="number">1</attackbonus>
+					<attackstat type="string">strength</attackstat>
+					<damagelist>
+						<holder name="Brad" owner="true" />
+						<id-00001>
+							<holder name="Brad" owner="true" />
+							<bonus type="number">1</bonus>
+							<dice type="dice">d6</dice>
+							<stat type="string">strength</stat>
+							<type type="string">bludgeoning, magic</type>
+						</id-00001>
+					</damagelist>
+					<name type="string">Lightbringer</name>
+					<prof type="number">1</prof>
+					<properties type="string">+1d6 vs.undead</properties>
+				</id-00006>
 				<id-00007>
 					<holder name="Brad" owner="true" />
 					<damagelist>
@@ -3008,6 +3127,18 @@
 					</shortcut>
 					<type type="number">0</type>
 				</id-00007>
+				<id-00008>
+					<holder name="Brad" owner="true" />
+					<damagelist>
+						<holder name="Brad" owner="true" />
+						<id-00001>
+							<holder name="Brad" owner="true" />
+							<dice type="dice">d6</dice>
+						</id-00001>
+					</damagelist>
+					<name type="string">Lightbringer extra undead damage</name>
+					<prof type="number">1</prof>
+				</id-00008>
 			</weaponlist>
 		</id-00003>
 		<id-00004>
@@ -3089,16 +3220,17 @@
 				<holder name="Tom" owner="true" />
 				<slot1>
 					<holder name="Tom" owner="true" />
+					<amount type="number">1</amount>
 					<name type="string">cp</name>
 				</slot1>
 				<slot2>
 					<holder name="Tom" owner="true" />
-					<amount type="number">118</amount>
+					<amount type="number">464</amount>
 					<name type="string">gp</name>
 				</slot2>
 				<slot3>
 					<holder name="Tom" owner="true" />
-					<amount type="number">14</amount>
+					<amount type="number">23</amount>
 					<name type="string">sp</name>
 				</slot3>
 				<slot4>
@@ -3131,10 +3263,10 @@
 				<encumbered type="number">50</encumbered>
 				<encumberedheavy type="number">100</encumberedheavy>
 				<liftpushdrag type="number">300</liftpushdrag>
-				<load type="number">37</load>
+				<load type="number">41</load>
 				<max type="number">150</max>
 			</encumbrance>
-			<exp type="number">2710</exp>
+			<exp type="number">4100</exp>
 			<expneeded type="number">6500</expneeded>
 			<featlist>
 				<holder name="Tom" owner="true" />
@@ -3279,6 +3411,20 @@
 			<inspiration type="number">1</inspiration>
 			<inventorylist>
 				<holder name="Tom" owner="true" />
+				<id-00001>
+					<holder name="Tom" owner="true" />
+					<carried type="number">1</carried>
+					<cost type="string">2 sp</cost>
+					<count type="number">1</count>
+					<damage type="string">1d6 bludgeoning</damage>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Quarterstaff</name>
+					<properties type="string">Versatile (1d8)</properties>
+					<subtype type="string">Simple Melee Weapons</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">4</weight>
+				</id-00001>
 				<id-00002>
 					<holder name="Tom" owner="true" />
 					<carried type="number">1</carried>
@@ -3415,7 +3561,7 @@
 					</description>
 					<isidentified type="number">1</isidentified>
 					<locked type="number">1</locked>
-					<name type="string">Staff of Defense &#34;The Glass Staff&#34; (9 charges remaining)</name>
+					<name type="string">Staff of Defense &#34;The Glass Staff&#34; (8 charges remaining)</name>
 					<type type="string">Staff</type>
 					<weight type="number">3</weight>
 				</id-00011>
@@ -3431,6 +3577,13 @@
 					<name type="string">Augury Statuette (gold elf statue)</name>
 					<weight type="number">1</weight>
 				</id-00012>
+				<id-00013>
+					<holder name="Tom" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<name type="string">Scroll of Charm Person</name>
+				</id-00013>
 			</inventorylist>
 			<languagelist>
 				<holder name="Tom" owner="true" />
@@ -3475,12 +3628,12 @@
 				<spellslots1>
 					<holder name="Tom" owner="true" />
 					<max type="number">4</max>
-					<used type="number">0</used>
+					<used type="number">3</used>
 				</spellslots1>
 				<spellslots2>
 					<holder name="Tom" owner="true" />
 					<max type="number">3</max>
-					<used type="number">0</used>
+					<used type="number">1</used>
 				</spellslots2>
 				<spellslots3>
 					<holder name="Tom" owner="true" />
@@ -3694,6 +3847,36 @@
 					<school type="string">Abjuration</school>
 					<source type="string">Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00006>
+				<id-00007>
+					<holder name="Tom" owner="true" />
+					<actions>
+						<holder name="Tom" owner="true" />
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:</p>
+						<list>
+							<li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>
+							<li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
+							<li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
+							<li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
+							<li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
+							<li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li>
+						</list>
+						<p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p>
+					</description>
+					<duration type="string">Up to 1 hour</duration>
+					<group type="string">Spells</group>
+					<level type="number">0</level>
+					<locked type="number">1</locked>
+					<name type="string">Prestidigitation</name>
+					<prepared type="number">0</prepared>
+					<range type="string">10 feet</range>
+					<school type="string">Transmutation</school>
+					<source type="string">Bard, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+				</id-00007>
 				<id-00008>
 					<holder name="Tom" owner="true" />
 					<actions>
@@ -4064,6 +4247,48 @@
 					<school type="string">Conjuration</school>
 					<source type="string">Druid Underdark Circle, Eldritch Knight, Sorcerer, Wizard, Arcane Trickster</source>
 				</id-00017>
+				<id-00018>
+					<holder name="Tom" owner="true" />
+					<actions>
+						<holder name="Tom" owner="true" />
+						<id-00001>
+							<holder name="Tom" owner="true" />
+							<order type="number">1</order>
+							<savetype type="string">constitution</savetype>
+							<type type="string">cast</type>
+						</id-00001>
+						<id-00002>
+							<holder name="Tom" owner="true" />
+							<damagelist>
+								<holder name="Tom" owner="true" />
+								<id-00001>
+									<holder name="Tom" owner="true" />
+									<dice type="dice">d12</dice>
+									<type type="string">poison</type>
+								</id-00001>
+							</damagelist>
+							<order type="number">2</order>
+							<type type="string">damage</type>
+						</id-00002>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V, S</components>
+					<description type="formattedtext">
+						<p>You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.</p>
+						<p>This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
+					</description>
+					<duration type="string">Instantaneous</duration>
+					<group type="string">Spells</group>
+					<level type="number">0</level>
+					<locked type="number">1</locked>
+					<name type="string">Poison Spray</name>
+					<prepared type="number">0</prepared>
+					<range type="string">10 feet</range>
+					<ritual type="number">0</ritual>
+					<school type="string">Conjuration</school>
+					<source type="string">Druid, Eldritch Knight, Sorcerer, Warlock, Wizard, Arcane Trickster</source>
+				</id-00018>
 			</powers>
 			<profbonus type="number">2</profbonus>
 			<proficiencylist>
@@ -4225,6 +4450,27 @@
 			</traitlist>
 			<weaponlist>
 				<holder name="Tom" owner="true" />
+				<id-00001>
+					<holder name="Tom" owner="true" />
+					<damagelist>
+						<holder name="Tom" owner="true" />
+						<id-00001>
+							<holder name="Tom" owner="true" />
+							<dice type="dice">d6</dice>
+							<stat type="string">base</stat>
+							<type type="string">bludgeoning</type>
+						</id-00001>
+					</damagelist>
+					<maxammo type="number">0</maxammo>
+					<name type="string">Staff of Defense</name>
+					<prof type="number">1</prof>
+					<properties type="string">Versatile (1d8)</properties>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00001</recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00001>
 				<id-00002>
 					<holder name="Tom" owner="true" />
 					<attackbonus type="number">0</attackbonus>
@@ -4298,11 +4544,11 @@
 				</constitution>
 				<dexterity>
 					<holder name="Tim" owner="true" />
-					<bonus type="number">3</bonus>
-					<save type="number">5</save>
+					<bonus type="number">4</bonus>
+					<save type="number">6</save>
 					<savemodifier type="number">0</savemodifier>
 					<saveprof type="number">1</saveprof>
-					<score type="number">17</score>
+					<score type="number">18</score>
 				</dexterity>
 				<intelligence>
 					<holder name="Tim" owner="true" />
@@ -4340,7 +4586,7 @@
 				<id-00001>
 					<holder name="Tim" owner="true" />
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">2</hdused>
+					<hdused type="number">4</hdused>
 					<level type="number">4</level>
 					<name type="string">Rogue</name>
 					<shortcut type="windowreference">
@@ -4387,7 +4633,7 @@
 					<prof type="number">1</prof>
 					<shield type="number">0</shield>
 					<temporary type="number">0</temporary>
-					<total type="number">14</total>
+					<total type="number">15</total>
 				</ac>
 			</defenses>
 			<encumbrance>
@@ -4398,10 +4644,24 @@
 				<load type="number">48</load>
 				<max type="number">150</max>
 			</encumbrance>
-			<exp type="number">2710</exp>
+			<exp type="number">4100</exp>
 			<expneeded type="number">6500</expneeded>
 			<featlist>
 				<holder name="Tim" owner="true" />
+				<id-00001>
+					<holder name="Tim" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">Athlete</name>
+					<text type="formattedtext">
+						<p>You have undergone extensive physical training to gain the following benefits:</p>
+						<list>
+							<li>Increase your Dexterity score by 1 moved up to 18</li>
+							<li>When you are prone, standing up uses only 5 feet of your movement.</li>
+							<li>Climbing doesn't halve your speed.</li>
+							<li>You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.</li>
+						</list>
+					</text>
+				</id-00001>
 			</featlist>
 			<featurelist>
 				<holder name="Tim" owner="true" />
@@ -4460,23 +4720,28 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">27</total>
-				<wounds type="number">0</wounds>
+				<wounds type="number">11</wounds>
 			</hp>
 			<initiative>
 				<holder name="Tim" owner="true" />
 				<misc type="number">0</misc>
 				<temporary type="number">0</temporary>
-				<total type="number">3</total>
+				<total type="number">4</total>
 			</initiative>
 			<inspiration type="number">0</inspiration>
 			<inventorylist>
 				<holder name="Tim" owner="true" />
 				<id-00001>
 					<holder name="Tim" owner="true" />
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
 					<carried type="number">1</carried>
 					<cost type="string">10 gp</cost>
 					<count type="number">1</count>
 					<damage type="string">1d6 piercing</damage>
+					<description type="formattedtext">
+						<p></p>
+					</description>
 					<isidentified type="number">1</isidentified>
 					<locked type="number">1</locked>
 					<name type="string">Shortsword</name>
@@ -4528,10 +4793,15 @@
 				</id-00006>
 				<id-00008>
 					<holder name="Tim" owner="true" />
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
 					<carried type="number">1</carried>
 					<cost type="string">2 gp</cost>
 					<count type="number">1</count>
 					<damage type="string">1d4 piercing</damage>
+					<description type="formattedtext">
+						<p></p>
+					</description>
 					<isidentified type="number">1</isidentified>
 					<locked type="number">1</locked>
 					<name type="string">Dagger</name>
@@ -4782,6 +5052,11 @@
 					<holder name="Tim" owner="true" />
 					<actions>
 						<holder name="Tim" owner="true" />
+						<id-00001>
+							<holder name="Tim" owner="true" />
+							<order type="number">1</order>
+							<type type="string">effect</type>
+						</id-00001>
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
@@ -4826,6 +5101,7 @@
 					<locked type="number">1</locked>
 					<name type="string">Sneak Attack</name>
 					<prepared type="number">0</prepared>
+					<ritual type="number">0</ritual>
 					<shortdescription type="string">Sneak Attack</shortdescription>
 					<source type="string">PHB 96</source>
 				</id-00004>
@@ -4843,6 +5119,7 @@
 					<locked type="number">1</locked>
 					<name type="string">Lucky</name>
 					<prepared type="number">0</prepared>
+					<ritual type="number">0</ritual>
 				</id-00005>
 			</powers>
 			<profbonus type="number">2</profbonus>
@@ -4871,6 +5148,7 @@
 				<holder name="Tim" owner="true" />
 				<id-00001>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Perception</name>
 					<prof type="number">1</prof>
 					<stat type="string">wisdom</stat>
@@ -4878,54 +5156,71 @@
 				</id-00001>
 				<id-00002>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Acrobatics</name>
 					<prof type="number">1</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">5</total>
+					<total type="number">6</total>
 				</id-00002>
 				<id-00003>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Sleight of Hand</name>
 					<prof type="number">1</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">5</total>
+					<total type="number">6</total>
 				</id-00003>
 				<id-00004>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Stealth</name>
 					<prof type="number">2</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">7</total>
+					<total type="number">8</total>
 				</id-00004>
 				<id-00005>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Arcana</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00005>
 				<id-00006>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Persuasion</name>
+					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
+					<total type="number">0</total>
 				</id-00006>
 				<id-00007>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Nature</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00007>
 				<id-00008>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Medicine</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
 				</id-00008>
 				<id-00009>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Survival</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
 				</id-00009>
 				<id-00010>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Performance</name>
 					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
@@ -4933,12 +5228,15 @@
 				</id-00010>
 				<id-00011>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Religion</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00011>
 				<id-00012>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Athletics</name>
 					<prof type="number">2</prof>
 					<stat type="string">strength</stat>
@@ -4946,16 +5244,23 @@
 				</id-00012>
 				<id-00013>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Insight</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
 				</id-00013>
 				<id-00014>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Intimidation</name>
+					<prof type="number">0</prof>
 					<stat type="string">charisma</stat>
+					<total type="number">0</total>
 				</id-00014>
 				<id-00015>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Deception</name>
 					<prof type="number">1</prof>
 					<stat type="string">charisma</stat>
@@ -4963,27 +5268,35 @@
 				</id-00015>
 				<id-00016>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Investigation</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00016>
 				<id-00017>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">History</name>
+					<prof type="number">0</prof>
 					<stat type="string">intelligence</stat>
 					<total type="number">2</total>
 				</id-00017>
 				<id-00018>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Animal Handling</name>
+					<prof type="number">0</prof>
 					<stat type="string">wisdom</stat>
+					<total type="number">0</total>
 				</id-00018>
 				<id-00020>
 					<holder name="Tim" owner="true" />
+					<misc type="number">0</misc>
 					<name type="string">Pick Lock / Trap</name>
 					<prof type="number">1</prof>
 					<stat type="string">dexterity</stat>
-					<total type="number">5</total>
+					<total type="number">6</total>
 				</id-00020>
 			</skilllist>
 			<speed>
@@ -5125,7 +5438,7 @@
 				</id-00004>
 				<id-00005>
 					<holder name="Tim" owner="true" />
-					<ammo type="number">6</ammo>
+					<ammo type="number">11</ammo>
 					<attackbonus type="number">0</attackbonus>
 					<damagelist>
 						<holder name="Tim" owner="true" />
@@ -5216,8 +5529,9 @@
 				<id-00001>
 					<holder name="Matt" owner="true" />
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
+					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">1</hdused>
+					<hdused type="number">4</hdused>
 					<level type="number">4</level>
 					<name type="string">Druid</name>
 					<shortcut type="windowreference">
@@ -5230,7 +5544,7 @@
 				<holder name="Matt" owner="true" />
 				<slot1>
 					<holder name="Matt" owner="true" />
-					<amount type="number">51</amount>
+					<amount type="number">247</amount>
 					<name type="string">GP</name>
 				</slot1>
 				<slot2>
@@ -5275,7 +5589,7 @@
 				<load type="number">2</load>
 				<max type="number">120</max>
 			</encumbrance>
-			<exp type="number">2710</exp>
+			<exp type="number">4100</exp>
 			<expneeded type="number">0</expneeded>
 			<featlist>
 				<holder name="Matt" owner="true" />
@@ -5338,7 +5652,7 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<temporary type="number">0</temporary>
 				<total type="number">29</total>
-				<wounds type="number">0</wounds>
+				<wounds type="number">20</wounds>
 			</hp>
 			<ideals type="string">People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)</ideals>
 			<initiative>
@@ -5390,9 +5704,11 @@
 					<atkstat type="string">wisdom</atkstat>
 					<castertype type="string">memorization</castertype>
 					<name type="string">Spells</name>
+					<prepared type="number">8</prepared>
 					<saveprof type="number">1</saveprof>
 					<savestat type="string">wisdom</savestat>
 					<stat type="string">wisdom</stat>
+					<uses type="number">0</uses>
 				</id-00001>
 			</powergroup>
 			<powermeta>
@@ -5400,12 +5716,12 @@
 				<spellslots1>
 					<holder name="Matt" owner="true" />
 					<max type="number">4</max>
-					<used type="number">0</used>
+					<used type="number">4</used>
 				</spellslots1>
 				<spellslots2>
 					<holder name="Matt" owner="true" />
 					<max type="number">3</max>
-					<used type="number">0</used>
+					<used type="number">3</used>
 				</spellslots2>
 				<spellslots3>
 					<holder name="Matt" owner="true" />
@@ -5443,7 +5759,6 @@
 					<used type="number">0</used>
 				</spellslots9>
 			</powermeta>
-			<powermode type="string">combat</powermode>
 			<powers>
 				<holder name="Matt" owner="true" />
 				<id-00001>
@@ -6893,7 +7208,7 @@
 				</id-00002>
 				<id-00004>
 					<holder name="Matt" owner="true" />
-					<ammo type="number">2</ammo>
+					<ammo type="number">4</ammo>
 					<attackbonus type="number">0</attackbonus>
 					<damagelist>
 						<holder name="Matt" owner="true" />
@@ -6993,13 +7308,11 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Heavy</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00007_token</token>
-				<tokenrefid type="string">1</tokenrefid>
-				<tokenrefnode type="string">image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -7008,96 +7321,8 @@
 						<public />
 					</id-00001>
 				</traits>
-				<wounds type="number">0</wounds>
+				<wounds type="number">20</wounds>
 			</id-00001>
-			<id-00002>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<score type="number">11</score>
-					</charisma>
-					<constitution>
-						<public />
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<score type="number">17</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<score type="number">14</score>
-					</intelligence>
-					<strength>
-						<public />
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<score type="number">11</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">14</ac>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-					</id-00001>
-				</actions>
-				<active type="number">0</active>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">27</hptotal>
-				<init type="number">3</init>
-				<initresult type="number">0</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>charsheet</class>
-					<recordname>charsheet.id-00005</recordname>
-				</link>
-				<name type="string">Eldon Merryspring</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-					<id-00001>
-						<public />
-					</id-00001>
-				</reactions>
-				<space type="number">5</space>
-				<speed type="string">25</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<token type="token">portrait_id-00005_token</token>
-				<tokenrefid type="string">3</tokenrefid>
-				<tokenrefnode type="string">image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-					</id-00001>
-				</traits>
-				<wounds type="number">0</wounds>
-			</id-00002>
 			<id-00005>
 				<public />
 				<abilities>
@@ -7169,13 +7394,11 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Wounded</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00003_token</token>
-				<tokenrefid type="string">6</tokenrefid>
-				<tokenrefnode type="string">image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -7184,7 +7407,7 @@
 						<public />
 					</id-00001>
 				</traits>
-				<wounds type="number">0</wounds>
+				<wounds type="number">1</wounds>
 			</id-00005>
 			<id-00006>
 				<public />
@@ -7215,7 +7438,7 @@
 						<score type="number">12</score>
 					</wisdom>
 				</abilities>
-				<ac type="number">16</ac>
+				<ac type="number">18</ac>
 				<actions>
 					<public />
 					<id-00001>
@@ -7257,13 +7480,11 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Wounded</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00002_token</token>
-				<tokenrefid type="string">4</tokenrefid>
-				<tokenrefnode type="string">image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -7272,7 +7493,7 @@
 						<public />
 					</id-00001>
 				</traits>
-				<wounds type="number">0</wounds>
+				<wounds type="number">6</wounds>
 			</id-00006>
 			<id-00007>
 				<public />
@@ -7350,8 +7571,6 @@
 					<public />
 				</targets>
 				<token type="token">portrait_id-00004_token</token>
-				<tokenrefid type="string">5</tokenrefid>
-				<tokenrefnode type="string">image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -7362,6 +7581,83 @@
 				</traits>
 				<wounds type="number">0</wounds>
 			</id-00007>
+			<id-00023>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">11</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">18</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">14</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">15</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">27</hptotal>
+				<init type="number">4</init>
+				<initresult type="number">0</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00005</recordname>
+				</link>
+				<name type="string">Eldon Merryspring</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">25</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Wounded</status>
+				<targets>
+					<public />
+				</targets>
+				<token type="token">portrait_id-00005_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<wounds type="number">11</wounds>
+			</id-00023>
 		</list>
 		<round type="number">1</round>
 	</combattracker>
@@ -7371,15 +7667,27 @@
 	<encounter>
 		<category name="" mergeid="" baseicon="0" decalicon="0">
 		</category>
-		<category name="Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
+		<category name="(Hoard of the Dragon Queen)" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="Part 1: Goblin Arrows" mergeid="" baseicon="2" decalicon="1">
+		<category name="E01 Episode 1: Greenest in Flames" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="Part 2: Phandalin" mergeid="" baseicon="2" decalicon="1">
+		<category name="E02 Episode 2: Raiders' Camp" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="Part 3: the Spider's Web" mergeid="" baseicon="2" decalicon="1">
+		<category name="E03 Episode 3: Dragon Hatchery" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="Part 4: Wave Echo Cave" mergeid="" baseicon="2" decalicon="1">
+		<category name="E04 Episode 4: On the Road" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="E05 Episode 5: Construction Ahead" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="E06 Episode 6: Castle Naerytar" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="E07 Episode 7: Hunting Lodge" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="E08 Episode 8: Castle in the Clouds" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="I01 Appendices" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="I02 What Happens Next?" mergeid="" baseicon="2" decalicon="1">
 		</category>
 	</encounter>
 	<image>
@@ -7391,7 +7699,7 @@
 				<name type="string">Sleeping Giant Tap Room</name>
 			</id-00001>
 		</category>
-		<category name="DD Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
+		<category name="DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
 		</category>
 		<category name="FG Battle Maps" mergeid="FG Battle Maps" baseicon="0" decalicon="0">
 		</category>
@@ -7399,11 +7707,95 @@
 	<item>
 		<category name="" mergeid="" baseicon="0" decalicon="0">
 		</category>
-		<category name="Adventuring Gear - DD Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
+		<category name="Adventuring Gear - DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="Magic Items - DD Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
+		<category name="Weapon - DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Armor - DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
+		</category>
+		<category name="Magic Items - DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
 		</category>
 	</item>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<name type="string">Common</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<font type="string">Primordial</font>
+			<name type="string">Primordial</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elvish</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<name type="string">Deep Speech</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarvish</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnomish</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00016>
+	</languages>
 	<library>
 	</library>
 	<modifiers>
@@ -7524,7 +7916,9 @@
 			<name type="string">Oliver Notes</name>
 			<text type="formattedtext">
 				<p>Have 2 goodberries.</p>
-				<p>Mage Hand</p>
+				<p>Carrying a lit torch.</p>
+				<p>Mage Armor is cast.</p>
+				<p>7 charges left on Staff of Defense.</p>
 			</text>
 		</id-00007>
 		<id-00008>
@@ -7565,16 +7959,48 @@
 				<p>We then open a door into a Bugbearacks (BBB) . We back out and they barricade the door. Perhaps they're afraid of the undead.</p>
 				<p>We backtrack (again) and perhaps we're heading into a humanoid portion of the cavern (vs. undead portion). Here we are ambushed in a cave with a small lake by waiting bugbears. The fight is quick and desperate. We capture one of the bugbears. He says one of the dwarves is with Blackspider, but likely dead already. The bugbear kills himself before Argus cuts his throat and lets him go to get help from Blackspider.</p>
 				<p>We bed down in the Bugbearacks to rest.</p>
-				<p></p>
-				<p></p>
-				<p></p>
 			</text>
 		</id-00009>
+		<id-00010>
+			<public />
+			<holder name="Tom" owner="true" />
+			<locked type="number">0</locked>
+			<name type="string">6/28/2015 - Nezznar the Black Spider ahole</name>
+			<text type="formattedtext">
+				<p>We full rest and level up. We then head out through the undead side of the BBB and burn away webs with firebolts. Apparently they tried to web us in. Whoever &#34;they&#34; is.</p>
+				<p>Ghouls roam into the dining hall as we enter. They notice Weyland's torch. And they attack us. We dispatch them wicked efficiently. Tactics and a couple of crits.</p>
+				<p>Appears to be a spider in the dungeon. We find evidence of its web elsewhere. The webs lead into a room a big dwarven statue at the end (dwarf is 9' tall and seated in a throne with a warhammer across his lap).</p>
+				<p>We find Nundro suspended in the webs and strung up like he's crucified. We find his map of the cave. We find notes as well. Some characters are elven but others aren't. Spiders, elven characters, Ehnora confirms it's drow. Strange that he wasn't killed.</p>
+				<p>Nundro tells us: 1. they're ahead of us by 2 hours. 2. two drow. 6-8 spiders. 3. Blackspider is a drow, likely a mage. 4. the other drow is warrior or rogue. 5. bugbears are with them as well 6-10. This is a big fucking party of bad guys.</p>
+				<p>We think we might come back and get the statue's emerald eyes later.</p>
+				<p>Nundro pulls rank on us as our employer and comes along. We head into a cavern with a 20' waterfall and the stream passing through it. The bugbears are there waiting for us, at least four of them. Two are on the far side of the stream from us and down a ravine where the stream flows into it. We push a lot of the bugbears over the edge repeatedly and eventually win.</p>
+				<p>Nundro tells us the drow are looking for the spell forge. We find a chamber off a cavern with a pond that has glittering cielings and crushed skeletons of orcs, dwarves and humans. We find freestanding buildings built out of the walls of this cavern. We find a workshop in one with anvils and scattered tools. We find a spectator (looks like a beholder) in one of the shops next to a green flame brazier. He says he's a guardian. We fight the thing and defeat it. It is weakened from its original power. Weyland finds two very sweat items, the mace Lightbringer, and a suit of gold motif'd breastplate armor.</p>
+				<p>We intercept Mormesk the Wraith, who appears to be a former resident of the mine. We fight him and defeat him. But then we are ambushed by the drow.</p>
+			</text>
+		</id-00010>
+		<id-00011>
+			<holder name="Tom" owner="true" />
+			<locked type="number">0</locked>
+			<name type="string">7/5/2015 - Fighting the Black Spider</name>
+			<text type="formattedtext">
+				<p>Nezznar attempts to bargain with the dwarves.</p>
+				<p>He casts darkness and Nundro then ambushes us as Vhalak! The battle goes really poorly for us at first. Then things start to turn when Oliver casts sleep.</p>
+				<p>Argus kills Vhalak who then changes into a doppelganger!</p>
+				<p>Eldon throws a dagger into Nezznar's ear from down on the floor. Nezznar is up on the room of one of the buildings in the cavern. Instantly kills him. So awesome.</p>
+				<p>Nezznar has a potion of healing. His spider staff may be magical. He carries a key with a head shaped like an anvil.</p>
+				<p>We try the key on the scorched chest in the wizard/wraith quarters. The chest is unlocked though and inside we find:</p>
+				<p>3 tomes (1 with a map to wave echo in its cover); map to Wave Echo; wooden pipe with platinum filigree. 1100 cp, 160 sp.</p>
+				<p>We find Nundro in the room we thought was filled with ghouls. Instead it was him . . . sleeping. This room appears to have been Nezznar's quarters. Dwarven Ale Mug 100 gp; and 9 Small Gemstones 10 gp each.</p>
+				<p>Gundren wants to know what it takes to have us clear the dungeon, revenant and zombies included. We do so in exchange for first dibs/consideration with the spell forge if they get it working again.</p>
+				<p>Apparently we left some good stuff in the dungeon. That's a bummer.</p>
+				<p>But we win!</p>
+			</text>
+		</id-00011>
 	</notes>
 	<npc>
 		<category name="" mergeid="" baseicon="0" decalicon="0">
 		</category>
-		<category name="NPCs - DD Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
+		<category name="NPCs - DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
 		</category>
 	</npc>
 	<options>
@@ -7622,95 +8048,24 @@
 			<public />
 			<id-00001>
 				<public />
-				<exp type="number">150</exp>
-				<locked type="number">0</locked>
-				<name type="string">Random Stirges</name>
-				<npclist>
-					<public />
-					<id-00001>
-						<public />
-						<count type="number">6</count>
-						<link type="windowreference">
-							<class>npc</class>
-							<recordname>npc.stirge@DD Lost Mine of Phandelver</recordname>
-						</link>
-						<maplink>
-							<public />
-							<id-00001>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1631</imagex>
-								<imagey type="number">2118</imagey>
-							</id-00001>
-							<id-00002>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1701</imagex>
-								<imagey type="number">2223</imagey>
-							</id-00002>
-							<id-00003>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1631</imagex>
-								<imagey type="number">2293</imagey>
-							</id-00003>
-							<id-00004>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1736</imagex>
-								<imagey type="number">2153</imagey>
-							</id-00004>
-							<id-00005>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1701</imagex>
-								<imagey type="number">2293</imagey>
-							</id-00005>
-							<id-00006>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1666</imagex>
-								<imagey type="number">2153</imagey>
-							</id-00006>
-						</maplink>
-						<name type="string">Stirge</name>
-						<token type="token">tokens/stirge.png@DD Lost Mine of Phandelver</token>
-					</id-00001>
-				</npclist>
+				<exp type="number">600</exp>
+				<name type="string">Wondering Ghouls</name>
 				<xpawarded type="number">1</xpawarded>
 			</id-00001>
 			<id-00002>
 				<public />
 				<cr type="string">5</cr>
-				<exp type="number">1400</exp>
+				<exp type="number">1250</exp>
 				<locked type="number">1</locked>
-				<name type="string">P4-02.09. Great Cavern</name>
+				<name type="string">P4-02.19. Temple of Dumathoin</name>
 				<npclist>
 					<public />
 					<id-00001>
 						<public />
-						<count type="number">7</count>
+						<count type="number">1</count>
 						<link type="windowreference">
 							<class>npc</class>
-							<recordname>npc.ghoul@DD Lost Mine of Phandelver</recordname>
+							<recordname>npc.nezznartheblackspider@DD Lost Mine of Phandelver</recordname>
 						</link>
 						<maplink>
 							<public />
@@ -7720,8 +8075,30 @@
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">879</imagex>
-								<imagey type="number">1453</imagey>
+								<imagex type="number">161</imagex>
+								<imagey type="number">421</imagey>
+							</id-id-00001>
+						</maplink>
+						<name type="string">Nezznar the Black Spider</name>
+						<token type="token">tokens/N.png@DD Lost Mine of Phandelver</token>
+					</id-00001>
+					<id-00002>
+						<public />
+						<count type="number">4</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.giantspider@DD Lost Mine of Phandelver</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
+								</imageref>
+								<imagex type="number">161</imagex>
+								<imagey type="number">473</imagey>
 							</id-id-00001>
 							<id-id-00002>
 								<public />
@@ -7729,8 +8106,8 @@
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">809</imagex>
-								<imagey type="number">1593</imagey>
+								<imagex type="number">459</imagex>
+								<imagey type="number">491</imagey>
 							</id-id-00002>
 							<id-id-00003>
 								<public />
@@ -7738,8 +8115,8 @@
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">949</imagex>
-								<imagey type="number">1628</imagey>
+								<imagex type="number">214</imagex>
+								<imagey type="number">246</imagey>
 							</id-id-00003>
 							<id-id-00004>
 								<public />
@@ -7747,68 +8124,50 @@
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">896</imagex>
-								<imagey type="number">1646</imagey>
+								<imagex type="number">459</imagex>
+								<imagey type="number">351</imagey>
 							</id-id-00004>
-							<id-id-00005>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1036</imagex>
-								<imagey type="number">1418</imagey>
-							</id-id-00005>
-							<id-id-00006>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">879</imagex>
-								<imagey type="number">1541</imagey>
-							</id-id-00006>
-							<id-id-00007>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">791</imagex>
-								<imagey type="number">1453</imagey>
-							</id-id-00007>
 						</maplink>
-						<name type="string">Ghoul</name>
-						<token type="token">tokens/ghoul.png@DD Lost Mine of Phandelver</token>
-					</id-00001>
+						<name type="string">Giant Spider</name>
+						<token type="token">tokens/giantspider.png@DD Lost Mine of Phandelver</token>
+					</id-00002>
 				</npclist>
 				<xpawarded type="number">1</xpawarded>
 			</id-00002>
 			<id-00003>
 				<public />
-				<cr type="string">4</cr>
-				<exp type="number">1000</exp>
-				<locked type="number">1</locked>
-				<name type="string">P4-02.11. North Barracks</name>
+				<cr type="string">5</cr>
+				<exp type="number">1500</exp>
+				<locked type="number">0</locked>
+				<name type="string">P4-02.18. Collapsed Cavern</name>
 				<npclist>
 					<public />
 					<id-00001>
 						<public />
-						<count type="number">5</count>
+						<count type="number">4</count>
 						<link type="windowreference">
 							<class>npc</class>
 							<recordname>npc.bugbear@DD Lost Mine of Phandelver</recordname>
 						</link>
 						<maplink>
 							<public />
+							<id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
 							<id-id-00001>
 								<public />
 								<imageref type="windowreference">
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">861</imagex>
-								<imagey type="number">1068</imagey>
+								<imagex type="number">1159</imagex>
+								<imagey type="number">386</imagey>
 							</id-id-00001>
 							<id-id-00002>
 								<public />
@@ -7816,8 +8175,8 @@
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">966</imagex>
-								<imagey type="number">998</imagey>
+								<imagex type="number">1141</imagex>
+								<imagey type="number">473</imagey>
 							</id-id-00002>
 							<id-id-00003>
 								<public />
@@ -7825,34 +8184,104 @@
 									<class>imagewindow</class>
 									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
 								</imageref>
-								<imagex type="number">931</imagex>
-								<imagey type="number">1173</imagey>
+								<imagex type="number">861</imagex>
+								<imagey type="number">491</imagey>
 							</id-id-00003>
-							<id-id-00004>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1036</imagex>
-								<imagey type="number">1173</imagey>
-							</id-id-00004>
-							<id-id-00005>
-								<public />
-								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.img_waveechocave_player__jpg.image@DD Lost Mine of Phandelver</recordname>
-								</imageref>
-								<imagex type="number">1071</imagex>
-								<imagey type="number">998</imagey>
-							</id-id-00005>
 						</maplink>
 						<name type="string">Bugbear</name>
 						<token type="token">tokens/bugbear.png@DD Lost Mine of Phandelver</token>
 					</id-00001>
+					<id-00002>
+						<public />
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.vhalak@DD Lost Mine of Phandelver</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.img_waveechocave_player__jpg.image@*</recordname>
+								</imageref>
+								<imagex type="number">928</imagex>
+								<imagey type="number">753</imagey>
+							</id-id-00001>
+						</maplink>
+						<name type="string">Vhalak</name>
+						<token type="token">tokens/V.png@DD Lost Mine of Phandelver</token>
+					</id-00002>
 				</npclist>
 				<xpawarded type="number">1</xpawarded>
 			</id-00003>
+			<id-00004>
+				<public />
+				<cr type="string">3</cr>
+				<exp type="number">700</exp>
+				<locked type="number">1</locked>
+				<name type="string">P4-02.15. Forge of Spells</name>
+				<npclist>
+					<public />
+					<id-00001>
+						<public />
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.spectator@DD Lost Mine of Phandelver</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.img_waveechocave_player__jpg.image@*</recordname>
+								</imageref>
+								<imagex type="number">2363</imagex>
+								<imagey type="number">1453</imagey>
+							</id-id-00001>
+						</maplink>
+						<name type="string">Spectator</name>
+						<token type="token">tokens/spectator.png@DD Lost Mine of Phandelver</token>
+					</id-00001>
+				</npclist>
+				<xpawarded type="number">1</xpawarded>
+			</id-00004>
+			<id-00005>
+				<public />
+				<cr type="string">3</cr>
+				<exp type="number">700</exp>
+				<locked type="number">1</locked>
+				<name type="string">P4-02.14. Wizards' Quarters</name>
+				<npclist>
+					<public />
+					<id-00001>
+						<public />
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.mormeskthewraith@DD Lost Mine of Phandelver</recordname>
+						</link>
+						<maplink>
+							<public />
+							<id-id-00001>
+								<public />
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.img_waveechocave_player__jpg.image@*</recordname>
+								</imageref>
+								<imagex type="number">2328</imagex>
+								<imagey type="number">1978</imagey>
+							</id-id-00001>
+						</maplink>
+						<name type="string">Mormesk the Wraith</name>
+						<token type="token">tokens/mormeskthewraith.png@DD Lost Mine of Phandelver</token>
+					</id-00001>
+				</npclist>
+				<xpawarded type="number">1</xpawarded>
+			</id-00005>
 		</encounters>
 		<hiderollresults type="number">0</hiderollresults>
 		<image type="image">
@@ -7867,6 +8296,7 @@
 					<id>4</id>
 					<x>226</x>
 					<y>76</y>
+					<scale>0.5</scale>
 					<name>Weyland Eromere</name>
 					<visibilitylocked>on</visibilitylocked>
 				</token>
@@ -7875,6 +8305,7 @@
 					<id>5</id>
 					<x>226</x>
 					<y>176</y>
+					<scale>0.5</scale>
 					<name>Argus Evertor</name>
 					<visibilitylocked>on</visibilitylocked>
 				</token>
@@ -7883,6 +8314,7 @@
 					<id>6</id>
 					<x>226</x>
 					<y>226</y>
+					<scale>0.5</scale>
 					<name>Oliver Vane</name>
 					<visibilitylocked>on</visibilitylocked>
 				</token>
@@ -7891,6 +8323,7 @@
 					<id>7</id>
 					<x>226</x>
 					<y>276</y>
+					<scale>0.5</scale>
 					<name>Ehnora</name>
 					<visibilitylocked>on</visibilitylocked>
 				</token>
@@ -7899,6 +8332,7 @@
 					<id>8</id>
 					<x>226</x>
 					<y>376</y>
+					<scale>0.5</scale>
 					<name>Eldon Merryspring</name>
 					<visibilitylocked>on</visibilitylocked>
 				</token>
@@ -8189,7 +8623,7 @@
 				<constitution type="number">12</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">14</dexterity>
-				<exp type="number">2710</exp>
+				<exp type="number">4100</exp>
 				<expneeded type="number">6500</expneeded>
 				<hd type="number">4</hd>
 				<hdused type="number">1</hdused>
@@ -8209,7 +8643,7 @@
 				<token type="token">portrait_id-00004_token</token>
 				<tokenrefid type="string">6</tokenrefid>
 				<tokenrefnode type="string">partysheet.image</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
+				<tokenscale type="number">0.5</tokenscale>
 				<watchid type="number">5</watchid>
 				<wisbonus type="number">1</wisbonus>
 				<wisdom type="number">12</wisdom>
@@ -8225,10 +8659,10 @@
 				<constitution type="number">15</constitution>
 				<dexbonus type="number">0</dexbonus>
 				<dexterity type="number">10</dexterity>
-				<exp type="number">2710</exp>
+				<exp type="number">4100</exp>
 				<expneeded type="number">6500</expneeded>
 				<hd type="number">4</hd>
-				<hdused type="number">1</hdused>
+				<hdused type="number">4</hdused>
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">36</hptotal>
 				<intbonus type="number">0</intbonus>
@@ -8245,15 +8679,15 @@
 				<token type="token">portrait_id-00003_token</token>
 				<tokenrefid type="string">5</tokenrefid>
 				<tokenrefnode type="string">partysheet.image</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
+				<tokenscale type="number">0.5</tokenscale>
 				<watchid type="number">3</watchid>
 				<wisbonus type="number">1</wisbonus>
 				<wisdom type="number">13</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">1</wounds>
 			</id-00002>
 			<id-00003>
 				<public />
-				<ac type="number">16</ac>
+				<ac type="number">18</ac>
 				<chabonus type="number">2</chabonus>
 				<charisma type="number">14</charisma>
 				<classlevel type="string">Fighter 2 / Rogue 2</classlevel>
@@ -8261,8 +8695,8 @@
 				<constitution type="number">12</constitution>
 				<dexbonus type="number">3</dexbonus>
 				<dexterity type="number">16</dexterity>
-				<exp type="number">2710</exp>
-				<expneeded type="number">2700</expneeded>
+				<exp type="number">4100</exp>
+				<expneeded type="number">6500</expneeded>
 				<hd type="number">4</hd>
 				<hdused type="number">1</hdused>
 				<hptemp type="number">0</hptemp>
@@ -8276,16 +8710,17 @@
 				<name type="string">Weyland Eromere</name>
 				<perception type="number">13</perception>
 				<race type="string">Human-Variant</race>
+				<specialdefense type="string">Advantage on saves vs breath weapons from creatures of type Dragon (armor)</specialdefense>
 				<strbonus type="number">0</strbonus>
 				<strength type="number">11</strength>
 				<token type="token">portrait_id-00002_token</token>
 				<tokenrefid type="string">4</tokenrefid>
 				<tokenrefnode type="string">partysheet.image</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
+				<tokenscale type="number">0.5</tokenscale>
 				<watchid type="number">2</watchid>
 				<wisbonus type="number">1</wisbonus>
 				<wisdom type="number">12</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">6</wounds>
 			</id-00003>
 			<id-00004>
 				<public />
@@ -8297,10 +8732,10 @@
 				<constitution type="number">13</constitution>
 				<dexbonus type="number">3</dexbonus>
 				<dexterity type="number">16</dexterity>
-				<exp type="number">2710</exp>
+				<exp type="number">4100</exp>
 				<expneeded type="number">0</expneeded>
 				<hd type="number">4</hd>
-				<hdused type="number">1</hdused>
+				<hdused type="number">4</hdused>
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">29</hptotal>
 				<intbonus type="number">0</intbonus>
@@ -8318,26 +8753,26 @@
 				<token type="token">portrait_id-00007_token</token>
 				<tokenrefid type="string">7</tokenrefid>
 				<tokenrefnode type="string">partysheet.image</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
+				<tokenscale type="number">0.5</tokenscale>
 				<watchid type="number">1</watchid>
 				<wisbonus type="number">4</wisbonus>
 				<wisdom type="number">18</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">20</wounds>
 			</id-00004>
 			<id-00005>
 				<public />
-				<ac type="number">14</ac>
+				<ac type="number">15</ac>
 				<chabonus type="number">0</chabonus>
 				<charisma type="number">11</charisma>
 				<classlevel type="string">Rogue 4</classlevel>
 				<conbonus type="number">1</conbonus>
 				<constitution type="number">12</constitution>
-				<dexbonus type="number">3</dexbonus>
-				<dexterity type="number">17</dexterity>
-				<exp type="number">2710</exp>
+				<dexbonus type="number">4</dexbonus>
+				<dexterity type="number">18</dexterity>
+				<exp type="number">4100</exp>
 				<expneeded type="number">6500</expneeded>
 				<hd type="number">4</hd>
-				<hdused type="number">2</hdused>
+				<hdused type="number">4</hdused>
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">27</hptotal>
 				<intbonus type="number">2</intbonus>
@@ -8354,15 +8789,27 @@
 				<token type="token">portrait_id-00005_token</token>
 				<tokenrefid type="string">8</tokenrefid>
 				<tokenrefnode type="string">partysheet.image</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
+				<tokenscale type="number">0.5</tokenscale>
 				<watchid type="number">3</watchid>
 				<wisbonus type="number">0</wisbonus>
 				<wisdom type="number">11</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">11</wounds>
 			</id-00005>
 		</partyinformation>
 		<quests>
 			<public />
+			<id-00001>
+				<public />
+				<name type="string">Major QuestSpi</name>
+				<xp type="number">2000</xp>
+				<xpawarded type="number">1</xpawarded>
+			</id-00001>
+			<id-00002>
+				<public />
+				<name type="string">Nundro</name>
+				<xp type="number">200</xp>
+				<xpawarded type="number">1</xpawarded>
+			</id-00002>
 		</quests>
 		<savedc type="number">0</savedc>
 		<saveselected type="string">Strength</saveselected>
@@ -8405,11 +8852,7 @@
 		</category>
 		<category name="DD Basic Rules - Player" mergeid="" baseicon="2" decalicon="1">
 		</category>
-		<category name="DD Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
-		</category>
-		<category name="LMoP - Part 3" mergeid="" baseicon="2" decalicon="1">
-		</category>
-		<category name="LMoP - Part 4" mergeid="" baseicon="2" decalicon="1">
+		<category name="DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
 		</category>
 		<category name="Monster Manual" mergeid="" baseicon="2" decalicon="1">
 		</category>
@@ -8484,8 +8927,64 @@
 					<public />
 				</temp>
 			</id-00001>
+			<id-00002>
+				<public />
+				<coinlist>
+					<public />
+					<id-00001>
+						<public />
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<public />
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<public />
+						<amount type="number">0</amount>
+						<description type="string">EP</description>
+					</id-00003>
+					<id-00004>
+						<public />
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00004>
+					<id-00005>
+						<public />
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00005>
+				</coinlist>
+				<itemlist>
+					<public />
+					<id-00001>
+						<public />
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells.</p>
+							<p>The staff can be wielded as a quarterstaff. It deals 1d6 extra poison damage on a hit when used to make a weapon attack.</p>
+							<p>The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: spider climb (1 charge) or web (2 charges, spell save DC 15). No components are required.</p>
+							<p>The staff regains I d6 +4 expended charges each day at dusk. If you expend the staff's last charge, roll a d20. On a 1, the staff crumbles to dust and is destroyed.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<name type="string">Spider Staff</name>
+						<type type="string">Staff</type>
+						<weight type="number">0</weight>
+					</id-00001>
+				</itemlist>
+				<locked type="number">0</locked>
+				<name type="string">Spiker Staff\n</name>
+				<temp>
+					<public />
+				</temp>
+			</id-00002>
 		</category>
-		<category name="Parcels - DD Lost Mine of Phandelver" mergeid="" baseicon="2" decalicon="1">
+		<category name="Parcels - DD Hoard of the Dragon Queen" mergeid="" baseicon="2" decalicon="1">
 		</category>
 	</treasureparcels>
 </root>

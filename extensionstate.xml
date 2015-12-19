@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<extensionstate version="3.0">
-	<extension name="Decal_LMOP">
+<extensionstate version="3.1">
+	<extension name="5E_Theme_Wizards">
 		<loaded />
 	</extension>
-	<extension name="Decal_PHB">
+	<extension name="Decal_LMOP">
 		<loaded />
 	</extension>
 </extensionstate>
